@@ -1,0 +1,5 @@
+metric,spearman_rho,p,songs
+word_count,0.259844,0.003563,124
+repeated_line_share,0.063264,0.485152,124
+type_token_ratio,-0.167516,0.062935,124
+mattr_50,-0.004305,0.962149,124

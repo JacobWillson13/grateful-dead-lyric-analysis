@@ -3,3 +3,4 @@ numpy>=1.26,<3
 scipy>=1.14,<2
 scikit-learn>=1.5,<2
 matplotlib>=3.9,<4
+wordcloud>=1.9,<2
