@@ -7,16 +7,20 @@ sys.path.insert(0, str(ROOT))
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib import font_manager
+from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.ticker import FixedLocator, MultipleLocator, NullLocator, PercentFormatter, ScalarFormatter
 import numpy as np
 import pandas as pd
 from scipy import stats
 
 from lyric_features import load_metrics
-from nlp import distinctive_words, fit_topics, load_stopwords, load_terms, match_play_counts
+from nlp import content_word, distinctive_words, fit_topics, load_stopwords, load_terms, match_play_counts
+from wordcloud import WordCloud
 
 BLUE, GRAY = "#2a78d6", "#a3a29c"
 INK, INK_2, GRID, SURFACE = "#0b0b0b", "#52514e", "#e6e5e1", "#fcfcfb"
+BLUE_RAMP = ["#fcfcfb", "#cde2fb", "#86b6ef", "#3987e5", "#256abf", "#104281"]
 RESULTS, FIGURES = ROOT / "results", ROOT / "figures"
 TOPICS = 7
 TOPIC_ANCHORS = {  # Labels read off each topic's top words; a label applies only if its anchor word is there.
@@ -24,6 +28,10 @@ TOPIC_ANCHORS = {  # Labels read off each topic's top words; a label applies onl
     "dancing": "Party and dance", "rain": "Rain, wind, and song", "feel": "Time and reflection",
     "man": "Characters and tall tales",
 }
+STYLE_LABELS = ["Goin' Down The Road Feelin' Bad", "Sugaree", "Not Fade Away", "Crazy Fingers",
+    "Visions of Johanna", "Truckin'", "Eyes Of The World", "Casey Jones", "Dark Star"]
+CLOUD_FILLER = set("""got know now one well come comes see way take say make let tell look going gonna never still
+much put two really even every things thing another keep around get gets right said came done made""".split())
 COMPARE = [("word_count", "Word count", None), ("repeated_line_share", "Repeated lines", "pct"),
            ("type_token_ratio", "Type-token ratio", None), ("mattr_50", "MATTR-50", None)]
 
@@ -59,7 +67,7 @@ def fig_length(eligible, rho):
     axes[0].set_ylabel("Share of unique words")
     fig.suptitle("Whole-song TTR punishes long songs. A fixed window removes most of that.",
         fontsize=12.5, fontweight="bold", x=.01, ha="left")
-    fig.savefig(FIGURES / "1_length_vs_diversity.png", dpi=150)
+    fig.savefig(FIGURES / "length_vs_diversity.png", dpi=150)
     plt.close(fig)
 
 
@@ -91,7 +99,7 @@ def fig_top50(eligible, table):
     fig.text(.01, -.04, f"{n_top} most-played songs vs {n_rest} other archive entries. Black ticks are medians. "
         "r is rank-biserial correlation; p is Mann-Whitney U, Holm-adjusted across the four tests.",
         color=INK_2, fontsize=8.5)
-    fig.savefig(FIGURES / "2_most_played_vs_rest.png", dpi=150, bbox_inches="tight")
+    fig.savefig(FIGURES / "most_played_vs_rest.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -116,7 +124,7 @@ def fig_words(words, n=12):
         x=.01, ha="left")
     fig.text(.01, -.03, "Lines at ±1.96. With ~760 words tested, no single word is significant after correction; "
         "read this as a lean, not a rule.", color=INK_2, fontsize=8.5)
-    fig.savefig(FIGURES / "3_distinctive_words.png", dpi=150, bbox_inches="tight")
+    fig.savefig(FIGURES / "distinctive_words.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -144,8 +152,148 @@ def fig_topics(prevalence):
         fontsize=12, fontweight="bold", x=.01, ha="left")
     fig.text(.01, -.03, "Labels are read off each topic's top words. p is Mann-Whitney U on per-song topic share, "
         "Holm-adjusted across the seven topics; unlabeled gaps are not significant.", color=INK_2, fontsize=8.5)
-    fig.savefig(FIGURES / "4_topics.png", dpi=150, bbox_inches="tight")
+    fig.savefig(FIGURES / "topics.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
+
+
+def log_word_axis(axis, ticks=(50, 100, 200, 400)):
+    axis.set_major_locator(FixedLocator(list(ticks)))
+    axis.set_minor_locator(NullLocator())
+    axis.set_major_formatter(ScalarFormatter())
+
+
+def fig_wordcloud(terms, clean_ids, stopwords, words):
+    """Size = number of songs using the word. Blue = leans toward the 50 most played (z >= 1)."""
+    sub = terms[terms.song_id.isin(clean_ids)]
+    coverage = sub.groupby("term").song_id.nunique()
+    coverage = coverage[[content_word(t, stopwords) and t not in CLOUD_FILLER for t in coverage.index]]
+    coverage = coverage.sort_values(ascending=False, kind="stable").head(160)
+    lean = words.set_index("term").z
+    font = font_manager.findfont(font_manager.FontProperties(family="DejaVu Sans", weight="bold"))
+
+    def color(word, **_):
+        return BLUE if lean.get(word, 0) >= 1 else "#3d3c39"
+
+    cloud = WordCloud(width=1800, height=880, background_color=SURFACE, font_path=font, max_words=160,
+        prefer_horizontal=.92, relative_scaling=.3, max_font_size=170, min_font_size=12, margin=4,
+        random_state=503, color_func=color).generate_from_frequencies(coverage.to_dict())
+    fig = plt.figure(figsize=(12, 6.8))
+    ax = fig.add_axes([.01, .01, .98, .885])
+    ax.imshow(cloud.to_array(), interpolation="bilinear")
+    ax.set_axis_off()
+    fig.text(.01, .985, "The vocabulary of 305 Grateful Dead lyrics", fontsize=14, fontweight="bold", va="top")
+    fig.text(.01, .94, "Size is the number of songs that use the word. Blue words lean toward the 50 most-played songs. "
+        "Function words and common fillers are hidden.", color=INK_2, fontsize=9.5, va="top")
+    fig.savefig(FIGURES / "wordcloud.png", dpi=150)
+    plt.close(fig)
+    return coverage.rename("songs").reset_index().assign(z=lambda d: d.term.map(lean))
+
+
+def fig_setlist(plays, titles):
+    top = plays[plays.top_50].sort_values(["times_played", "setlist_title"], ascending=[True, False])
+    fig, ax = plt.subplots(figsize=(8, 12.5), layout="constrained")
+    y = np.arange(len(top))
+    ax.hlines(y, 0, top.times_played, color=BLUE, linewidth=2)
+    ax.scatter(top.times_played, y, s=36, color=BLUE, zorder=3, edgecolors=SURFACE, linewidths=1.5)
+    ax.set_yticks(y, top.setlist_title, fontsize=8.8)
+    ax.tick_params(axis="y", length=0)
+    ax.grid(axis="y", visible=False)
+    ax.set_xlim(0, top.times_played.max() * 1.1)
+    ax.set_ylim(-.8, len(top) - .2)
+    ax.set_xlabel("Times played live")
+    for r, yy in zip(top.itertuples(), y):
+        if yy >= len(top) - 3 or yy == 0:
+            ax.text(r.times_played + 10, yy, f"{r.times_played}", va="center", fontsize=8.5, color=INK_2)
+    ax.set_title("setlist.fm, 2,337 setlists. Drums, Space, and other instrumentals excluded.", loc="left",
+        fontsize=9, fontweight="normal", color=INK_2, pad=10)
+    fig.suptitle("The 50 songs the Grateful Dead played most", fontsize=13, fontweight="bold", x=.01, ha="left")
+    fig.savefig(FIGURES / "top50_setlist.png", dpi=150)
+    plt.close(fig)
+
+
+def fig_plays_vs_diversity(joined, rho, p):
+    fig, ax = plt.subplots(figsize=(9, 5.2), layout="constrained")
+    for is_top, color, label in [(False, GRAY, "Played 58 to 274 times"), (True, BLUE, "50 most played")]:
+        d = joined[joined.top_50.eq(is_top)]
+        ax.scatter(d.times_played, d.mattr_50, s=34, color=color, alpha=.85, edgecolors=SURFACE,
+            linewidths=1, label=label, zorder=3)
+    for name, dx, dy in [("Me and My Uncle", -6, 8), ("Goin' Down The Road Feelin' Bad", 8, -2),
+                         ("Crazy Fingers", 8, 2), ("Not Fade Away", 8, -2), ("Sugaree", 8, -2)]:
+        row = joined[joined.title.eq(name)]
+        if not row.empty:
+            r = row.iloc[0]
+            ax.annotate(name, (r.times_played, r.mattr_50), xytext=(dx, dy), textcoords="offset points",
+                fontsize=8.5, color=INK_2, ha="right" if dx < 0 else "left")
+    ax.set_xscale("log")
+    log_word_axis(ax.xaxis, (60, 100, 200, 400, 600))
+    ax.set(xlabel="Times played live (log scale)", ylabel="MATTR-50")
+    ax.legend(frameon=False, loc="lower left")
+    verdict = f"p = {p:.2f}"
+    fig.suptitle(f"Playing a song more didn't mean simpler lyrics: Spearman ρ = {rho:+.2f}, {verdict}",
+        fontsize=12, fontweight="bold", x=.01, ha="left")
+    fig.text(.01, -.03, f"{len(joined)} songs with lyrics in the archive and at least 58 plays on setlist.fm.",
+        color=INK_2, fontsize=8.5)
+    fig.savefig(FIGURES / "plays_vs_diversity.png", dpi=150, bbox_inches="tight")
+    plt.close(fig)
+
+
+def fig_style_map(eligible):
+    fig, ax = plt.subplots(figsize=(10, 6.4), layout="constrained")
+    for is_top, color, label, size in [(False, GRAY, "Rest of archive", 22), (True, BLUE, "50 most played", 34)]:
+        d = eligible[eligible.top_50.eq(is_top)]
+        ax.scatter(d.repeated_line_share, d.mattr_50, s=size, color=color, alpha=.8, edgecolors=SURFACE,
+            linewidths=1, label=label, zorder=3 if is_top else 2)
+    offsets = {"Goin' Down The Road Feelin' Bad": (-8, 6, "right"), "Sugaree": (8, 0, "left"),
+        "Not Fade Away": (8, -4, "left"), "Crazy Fingers": (8, 2, "left"), "Visions of Johanna": (8, -2, "left"),
+        "Truckin'": (8, 4, "left"), "Eyes Of The World": (8, -2, "left"), "Casey Jones": (8, 3, "left"),
+        "Dark Star": (8, 4, "left")}
+    for name, (dx, dy, ha) in offsets.items():
+        row = eligible[eligible.title.eq(name)]
+        if not row.empty:
+            r = row.iloc[0]
+            ax.annotate(name.replace("Of The", "of the"), (r.repeated_line_share, r.mattr_50), xytext=(dx, dy),
+                textcoords="offset points", fontsize=8.5, color=INK, ha=ha, va="center")
+    ax.xaxis.set_major_formatter(PercentFormatter(1, decimals=0))
+    ax.set(xlabel="Share of lines that repeat an earlier line", ylabel="MATTR-50 (vocabulary variety)",
+        xlim=(-.03, .8))
+    ax.legend(frameon=False, loc="upper right")
+    fig.suptitle("Two ways a lyric can be simple: repeating lines, or reusing words", fontsize=12.5,
+        fontweight="bold", x=.01, ha="left")
+    fig.text(.01, -.03, f"{len(eligible)} songs with at least 50 words. The traditional blues Goin' Down The Road is the most "
+        "repetitive entry; Crazy Fingers is near the top for vocabulary variety.", color=INK_2, fontsize=8.5)
+    fig.savefig(FIGURES / "style_map.png", dpi=150, bbox_inches="tight")
+    plt.close(fig)
+
+
+def fig_topic_heatmap(song_topics, prevalence, titles):
+    order = prevalence.sort_values("share_top_50", ascending=False)
+    cols = [f"topic_{t}" for t in order.topic]
+    top = song_topics[song_topics.top_50].copy()
+    top["title"] = top.song_id.map(titles)
+    top["dominant"] = pd.Categorical(top[cols].idxmax(axis=1), categories=cols, ordered=True)
+    top["peak"] = top[cols].max(axis=1)
+    top = top.sort_values(["dominant", "peak"], ascending=[True, False])
+    cmap = LinearSegmentedColormap.from_list("blue_ramp", BLUE_RAMP)
+    fig, ax = plt.subplots(figsize=(8.6, 13), layout="constrained")
+    image = ax.imshow(top[cols].to_numpy(), cmap=cmap, vmin=0, vmax=.8, aspect="auto")
+    ax.set_xticks(range(len(cols)), order.label, rotation=35, ha="right", fontsize=9)
+    ax.set_yticks(range(len(top)), [t.replace("   ", ": ") for t in top.title], fontsize=8.5)
+    ax.tick_params(length=0)
+    ax.grid(False)
+    ax.set_xticks(np.arange(-.5, len(cols)), minor=True)
+    ax.set_yticks(np.arange(-.5, len(top)), minor=True)
+    ax.grid(which="minor", color=SURFACE, linewidth=1.5)
+    ax.tick_params(which="minor", length=0)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    bar = fig.colorbar(image, ax=ax, shrink=.35, pad=.02, location="top")
+    bar.ax.xaxis.set_major_formatter(PercentFormatter(1, decimals=0))
+    bar.outline.set_visible(False)
+    bar.set_label("Share of the song's topic mix", color=INK_2)
+    fig.suptitle("What the 50 most-played songs are about", fontsize=13, fontweight="bold", x=.01, ha="left")
+    fig.savefig(FIGURES / "top50_topic_mix.png", dpi=150)
+    plt.close(fig)
+    return top[["song_id", "title", *cols]]
 
 
 def main():
@@ -159,6 +307,7 @@ def main():
     titles = metrics.set_index("song_id").title
     plays.assign(lyrics_title=plays.song_id.map(titles)).to_csv(RESULTS / "play_count_matches.csv", index=False)
     top = set(plays.loc[plays.top_50 & plays.matched, "song_id"])
+    fig_setlist(plays, titles)
     clean = metrics[metrics.annotation_flag_count.eq(0) & ~metrics.duplicate_text]
     eligible = clean[clean.word_count >= 50].assign(top_50=lambda d: d.song_id.isin(top))
 
@@ -186,6 +335,18 @@ def main():
     words = distinctive_words(terms, group, sorted(set(clean.song_id) - top), stopwords)
     words.to_csv(RESULTS / "distinctive_words.csv", index=False, float_format="%.6f")
     fig_words(words)
+    fig_wordcloud(terms, clean.song_id, stopwords, words).to_csv(RESULTS / "wordcloud_weights.csv",
+        index=False, float_format="%.6f")
+
+    # Plays vs metrics across every matched song, plus the style map.
+    joined = eligible.merge(plays.loc[plays.matched, ["song_id", "times_played"]], on="song_id")
+    play_rows = [{"metric": m, **dict(zip(["spearman_rho", "p"], stats.spearmanr(joined.times_played, joined[m]))),
+        "songs": len(joined)} for m in ["word_count", "repeated_line_share", "type_token_ratio", "mattr_50"]]
+    play_table = pd.DataFrame(play_rows)
+    play_table.to_csv(RESULTS / "plays_vs_metrics.csv", index=False, float_format="%.6f")
+    mattr_row = play_table.set_index("metric").loc["mattr_50"]
+    fig_plays_vs_diversity(joined, mattr_row.spearman_rho, mattr_row.p)
+    fig_style_map(eligible)
 
     # 4. Topics, plus a seed-stability check.
     topic_words, song_topics = fit_topics(terms, clean.song_id, stopwords, k=TOPICS)
@@ -208,6 +369,8 @@ def main():
         "p": pvalues, "p_holm": holm(np.array(pvalues))})
     prevalence.to_csv(RESULTS / "topic_prevalence.csv", index=False, float_format="%.6f")
     fig_topics(prevalence)
+    fig_topic_heatmap(song_topics, prevalence, titles).to_csv(RESULTS / "top50_topic_mix.csv",
+        index=False, float_format="%.6f")
 
     print(f"{len(eligible)} songs analyzed ({eligible.top_50.sum()} most played); "
           f"TTR rho {rho['type_token_ratio']:+.3f}, MATTR-50 rho {rho['mattr_50']:+.3f}")

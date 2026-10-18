@@ -9,9 +9,17 @@ lyric transcriptions and compares the band's 50 most-played songs against everyt
 longer and repeat more lines. Measured properly, their vocabulary is just as varied. What does differ
 is subject matter: the setlist staples are about trains, the road, and characters, not reflection.
 
+![Word cloud](figures/wordcloud.png)
+
+## The 50 most-played songs
+
+![Top 50 setlist](figures/top50_setlist.png)
+
+Times played live, from setlist.fm. These 50 are the "popular" group in every comparison below.
+
 ## 1. The naive metric is biased by length
 
-![Length vs diversity](figures/1_length_vs_diversity.png)
+![Length vs diversity](figures/length_vs_diversity.png)
 
 Type-token ratio (unique words / total words) drops as songs get longer, because every extra line has
 more chances to reuse a word (Spearman ρ = −0.41). The moving-average type-token ratio (MATTR) averages
@@ -19,7 +27,7 @@ over every 50-word window instead, which takes most of the length effect out (ρ
 
 ## 2. Most played vs. the rest
 
-![Most played vs rest](figures/2_most_played_vs_rest.png)
+![Most played vs rest](figures/most_played_vs_rest.png)
 
 | | 50 most played | Rest | Effect (rank-biserial) | p (Holm) |
 | --- | --- | --- | --- | --- |
@@ -31,9 +39,22 @@ over every 50-word window instead, which takes most of the length effect out (ρ
 On type-token ratio alone you would conclude the popular songs are lyrically simpler. That conclusion
 disappears once the metric accounts for length.
 
-## 3. Which words set them apart
+The same holds as a continuous relationship. Across the 124 songs with lyrics and at least 58 plays, how
+often a song was played has no relationship with its MATTR-50 (Spearman ρ = −0.00, p = 0.96).
 
-![Distinctive words](figures/3_distinctive_words.png)
+![Plays vs diversity](figures/plays_vs_diversity.png)
+
+## 3. Two kinds of simple
+
+![Style map](figures/style_map.png)
+
+Repetition and vocabulary variety are different things. Not Fade Away never repeats a full line but recycles
+a small set of words. Sugaree and Goin' Down The Road repeat whole lines. Truckin' and Crazy Fingers do
+neither. The most-played songs (blue) spread across the whole map.
+
+## 4. Which words set them apart
+
+![Distinctive words](figures/distinctive_words.png)
 
 Weighted log-odds with an informative Dirichlet prior (Monroe et al., 2008), computed on song-level word
 presence so a repeated chorus counts once. The most-played side reads like country and western storytelling:
@@ -41,14 +62,20 @@ presence so a repeated chorus counts once. The most-played side reads like count
 introspective: *see, time, think, feel*. No single word survives correction for ~760 comparisons, so
 treat this as a lean, not a rule.
 
-## 4. Topics
+## 5. Topics
 
-![Topics](figures/4_topics.png)
+![Topics](figures/topics.png)
 
 NMF on TF-IDF finds seven topics. Each topic keeps at least 83% of its top words across ten random
 seeds (k = 8 left one topic at 40%, so it was dropped). Two differences survive correction. Trains and
 the road make up 23% of a typical setlist staple vs. 15% for the rest of the archive. Time and reflection
 make up 11% vs. 22%.
+
+![Topic mix of the top 50](figures/top50_topic_mix.png)
+
+Each row is one of the most-played songs, grouped by its strongest topic. Stella Blue, Bird Song, and Eyes of
+the World are almost pure "rain, wind, and song." NMF groups songs by shared words, not meaning, which shows
+in the odd cases: He's Gone lands under "trains and the road" largely through the word *gone*.
 
 ## Data
 
@@ -73,6 +100,7 @@ make up 11% vs. 22%.
 | Repeated lines | Share of lines that exactly repeat an earlier line |
 | Group tests | Mann-Whitney U with rank-biserial effect size, Holm-adjusted |
 | Distinctive words | Weighted log-odds z-score, prior strength 200, words in 5+ songs, function words removed |
+| Word cloud | Size = number of songs using the word; function words and a short filler list (got, know, now...) hidden; fixed seed |
 | Topics | scikit-learn NMF on sublinear TF-IDF, k = 7, NNDSVD init, words in at least 5 songs and at most 40% of them |
 
 ## Run it
