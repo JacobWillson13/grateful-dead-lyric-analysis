@@ -1,0 +1,2480 @@
+{
+  "index_url": "https://www.cs.cmu.edu/~mleone/dead-lyrics.html",
+  "retrieval_run_started_utc": "2026-10-16T17:15:47.672849+00:00",
+  "retrieval_run_finished_utc": "2026-10-16T17:20:16.066350+00:00",
+  "index_sha256": "c46bcb9a6e94abe7c401680262cab70856392ae1ba097fef73bdcecb630c8f55",
+  "sources": [
+    {
+      "title": "100,000 Tons of Steel",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/100,000_Tons_of_Steel.txt",
+      "song_id": "a845eaf8a8ee8010",
+      "status": "ok",
+      "raw_sha256": "877bd834914c772cae4cfb01cef51fc04bddd141b23c93611a13003a181da925",
+      "raw_bytes": 1396
+    },
+    {
+      "title": "Aiko Aiko",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Aiko_Aiko.txt",
+      "song_id": "db09c19a8dbbede6",
+      "status": "ok",
+      "raw_sha256": "524e6b22e9dcb8f0f41f306dd35813d19717f5c65476eb0038223dd82a3f6c80",
+      "raw_bytes": 429
+    },
+    {
+      "title": "Ain't It Crazy (The Rub)",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Ain't_It_Crazy_(The_Rub).txt",
+      "song_id": "ce9cad4677816c8b",
+      "status": "ok",
+      "raw_sha256": "16338d6c8bafd1a60185b1a5dfdbd99f9be2e5260423335603554fb19d2b6be8",
+      "raw_bytes": 705
+    },
+    {
+      "title": "Ain't Superstitious (Meet Me on the Bottom)",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Ain't_Superstitious_(Meet_Me_on_the_Bottom).txt",
+      "song_id": "378b9cc9cd725d22",
+      "status": "ok",
+      "raw_sha256": "0e7da531a90583f85f866f2edb1471a167d6d035b0662876fca5b82dc13f9cb1",
+      "raw_bytes": 840
+    },
+    {
+      "title": "Alabama Getaway",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Alabama_Getaway.txt",
+      "song_id": "3d5928cd46eb6e29",
+      "status": "ok",
+      "raw_sha256": "d1a075b603cea8cdab651d697580378a2335ae145ec812ec0fd3512b60d29fbb",
+      "raw_bytes": 1051
+    },
+    {
+      "title": "All New Minglewood Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/All_New_Minglewood_Blues.txt",
+      "song_id": "09a94c155117fdc7",
+      "status": "ok",
+      "raw_sha256": "1416643ee0e20e2000f44d859a1c2e4eddf725805d631665e2e74d909e8ec08c",
+      "raw_bytes": 1105
+    },
+    {
+      "title": "All Over Now",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/All_Over_Now.txt",
+      "song_id": "c45fc46b5586ae11",
+      "status": "ok",
+      "raw_sha256": "82dd4d530dffe300528ab919457a36ea00046a8d8635a2a5c6386609822c2f2f",
+      "raw_bytes": 765
+    },
+    {
+      "title": "Alligator",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Alligator.txt",
+      "song_id": "838f747d6b548e2a",
+      "status": "ok",
+      "raw_sha256": "b935b15f4697396645c10bedbeb842691e0c1f16947269feb347a60291cc22f4",
+      "raw_bytes": 981
+    },
+    {
+      "title": "Althea",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Althea.txt",
+      "song_id": "4f0f19108ad84d33",
+      "status": "ok",
+      "raw_sha256": "2eb6d882bddb23e13b552e8534f928e316953fbe888036f2367c882c9e4a8d2e",
+      "raw_bytes": 1250
+    },
+    {
+      "title": "And We Bid You Goodnight",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/And_We_Bid_You_Goodnight.txt",
+      "song_id": "1dd856bf33b556d9",
+      "status": "ok",
+      "raw_sha256": "7fb008ba43490760776099ddb2fa6f5a013dcea81006e663530186618fb9faa0",
+      "raw_bytes": 715
+    },
+    {
+      "title": "Around and Around",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Around_and_Around.txt",
+      "song_id": "5092906aa5798d29",
+      "status": "ok",
+      "raw_sha256": "1b20f6b15448505f2b4ec7e3df3eaee14b897c06ab7f5c3bac380f405044f17e",
+      "raw_bytes": 793
+    },
+    {
+      "title": "Attics of My Life",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Attics_of_My_Life.txt",
+      "song_id": "38d2cf297eeb6422",
+      "status": "ok",
+      "raw_sha256": "6b0843f714737b6f43e6a68a98aeb5fa8a5ddb3159b29ec4339d11cde5d7062c",
+      "raw_bytes": 707
+    },
+    {
+      "title": "Babe, It Ain't No Lie",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Babe,_It_Ain't_No_Lie.txt",
+      "song_id": "00026cf988cc5455",
+      "status": "ok",
+      "raw_sha256": "1413198ab92b6abc825540fb49bb801ef42d71bf31057a8ad483296d11dab1e7",
+      "raw_bytes": 442
+    },
+    {
+      "title": "Baby, What Do You Want Me To Do",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Baby,_What_Do_You_Want_Me_To_Do.txt",
+      "song_id": "e73c8e2e0aa2849e",
+      "status": "ok",
+      "raw_sha256": "09cc69bd68dc7ae202419216df096f6b80919a427bb1fe504da4c4797d116020",
+      "raw_bytes": 686
+    },
+    {
+      "title": "Ballad of Casey Jones",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Ballad_of_Casey_Jones.txt",
+      "song_id": "30617db85d192079",
+      "status": "ok",
+      "raw_sha256": "1b86a7fd81a609ae2d9d3f46447f9d7b84dae4784bfaadbb6f02149a20cf0b31",
+      "raw_bytes": 939
+    },
+    {
+      "title": "Bear Tracks",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Bear_Tracks.txt",
+      "song_id": "00aaa93d02a53911",
+      "status": "ok",
+      "raw_sha256": "24c32b19f4c41281c9a4a4bd4eaf2ff62ebcf7dab0859fac884513298afab6d0",
+      "raw_bytes": 1165
+    },
+    {
+      "title": "Beat it on Down The Line",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Beat_it_on_Down_The_Line.txt",
+      "song_id": "3af8001ef3945723",
+      "status": "ok",
+      "raw_sha256": "dec51281faebb019f07a384d6bfe830cc1422d44be87f8fa0e6c27ba32c9a2b9",
+      "raw_bytes": 1049
+    },
+    {
+      "title": "Bertha",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Bertha.txt",
+      "song_id": "d31c476b012d9814",
+      "status": "ok",
+      "raw_sha256": "4c8175d9ef6b3088d33b3c99434c1b73a4912a6f8e1760153883bf35f3291800",
+      "raw_bytes": 1250
+    },
+    {
+      "title": "Big Boss Man",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Big_Boss_Man.txt",
+      "song_id": "81454f7e8e61acb3",
+      "status": "ok",
+      "raw_sha256": "4085bc7b10a1905d8174147c286336250c6aff61fec701b895610b25f9b70f4e",
+      "raw_bytes": 547
+    },
+    {
+      "title": "Big Boy Pete",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Big_Boy_Pete.txt",
+      "song_id": "e2b6ec512624554c",
+      "status": "ok",
+      "raw_sha256": "2e60838ef6d0975886a23ff545ab8ac2f71e7b75de239c9e7f29e0615c24fe7d",
+      "raw_bytes": 988
+    },
+    {
+      "title": "Big Railroad Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Big_Railroad_Blues.txt",
+      "song_id": "de2a6af5ac83f3f1",
+      "status": "ok",
+      "raw_sha256": "c2d36cd8ed9771f32e76daaf86d2dae3d995947e59dde4c48c4f6b442960fc2e",
+      "raw_bytes": 775
+    },
+    {
+      "title": "Big River",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Big_River.txt",
+      "song_id": "cc0597ff49238a57",
+      "status": "ok",
+      "raw_sha256": "b87e6e7addea26c949ed936a3b662c19a28ea51201800a9b036cdb713e4f092a",
+      "raw_bytes": 916
+    },
+    {
+      "title": "Bird Song",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Bird_Song.txt",
+      "song_id": "3449552184d16631",
+      "status": "ok",
+      "raw_sha256": "a0470e683a4cf5f41d056f3c039416c213e788a7cba6c5fefa3af9a059e161ce",
+      "raw_bytes": 630
+    },
+    {
+      "title": "Black Muddy River",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Black_Muddy_River.txt",
+      "song_id": "0e6bb48cf970795b",
+      "status": "ok",
+      "raw_sha256": "28e9736a6881c8272b03d44819964e265bffecffccc9b990f75c8600d0af8880",
+      "raw_bytes": 1200
+    },
+    {
+      "title": "Black Peter",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Black_Peter.txt",
+      "song_id": "601138410185686f",
+      "status": "ok",
+      "raw_sha256": "6a3c895b51e3a364b8e50d777b438d34b281b01c57383f77a7008b86a99ef4a7",
+      "raw_bytes": 840
+    },
+    {
+      "title": "Black Throated Wind",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Black_Throated_Wind.txt",
+      "song_id": "1278a9ff59d3d417",
+      "status": "ok",
+      "raw_sha256": "5ce191649355f5b535be34fa3aa3dbebb0a29d1328e6aa004f68b0354756af7b",
+      "raw_bytes": 1795
+    },
+    {
+      "title": "Blues For Allah",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Blues_For_Allah.txt",
+      "song_id": "2b3ab1ec7ba24d19",
+      "status": "ok",
+      "raw_sha256": "b7a913622c896e493e47de73caa2b32a22f26c965dfb75ebe7f05783b631c3b0",
+      "raw_bytes": 886
+    },
+    {
+      "title": "Bo Diddley",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Bo_Diddley.txt",
+      "song_id": "d1b70a1d83344291",
+      "status": "ok",
+      "raw_sha256": "bfb93051e985eefd6eaeb5a5d1fd74f307f9e408193616c2ddf2291031b64a8e",
+      "raw_bytes": 33
+    },
+    {
+      "title": "Bondi Pier",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Bondi_Pier.txt",
+      "song_id": "99f1ac8f07eefba1",
+      "status": "ok",
+      "raw_sha256": "7cf2f4ea25848d86c2c612d086e429ee0c81aa4ab2b1214e6dd818cd33e1bcf2",
+      "raw_bytes": 1162
+    },
+    {
+      "title": "Born Cross Eyed",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Born_Cross-Eyed.txt",
+      "song_id": "9ef633d9333f24bf",
+      "status": "ok",
+      "raw_sha256": "66d38d0897be0c351d045a613350b203782bb9b6c3be9a943afe57ca1c710145",
+      "raw_bytes": 801
+    },
+    {
+      "title": "Box of Rain",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Box_of_Rain.txt",
+      "song_id": "33778f69897a4a6b",
+      "status": "ok",
+      "raw_sha256": "31e6126ffc269f89b0522d8e940358756f63a7dac40672f05e7bba43399b82fc",
+      "raw_bytes": 1485
+    },
+    {
+      "title": "Boys in the Barroom",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Boys_in_the_Barroom.txt",
+      "song_id": "86e272b8f286e14d",
+      "status": "ok",
+      "raw_sha256": "a4bfaba92dd13c82216e7a2c6e93a83be188d883a14a6eefaaab1bd4aef27494",
+      "raw_bytes": 679
+    },
+    {
+      "title": "Breadbox",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Breadbox.txt",
+      "song_id": "bde0da22d0f50f29",
+      "status": "ok",
+      "raw_sha256": "190ed4b43f0242215bc11e63cbb61422d80cf50bc64dcbb0ac413bfd0d0b0f82",
+      "raw_bytes": 1066
+    },
+    {
+      "title": "Bring Me My Shotgun",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Bring_Me_My_Shotgun.txt",
+      "song_id": "71e0d15c1e38ae57",
+      "status": "ok",
+      "raw_sha256": "6b82506d41f5e7c1c1a058f18cece661968a226de5a7abb55927acd928a41d7d",
+      "raw_bytes": 599
+    },
+    {
+      "title": "Brokedown Palace",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Brokedown_Palace.txt",
+      "song_id": "386df10f31b177c4",
+      "status": "ok",
+      "raw_sha256": "5beb9996a7bc809b682bfe2b2871a6c08cb0c7444bea85304f2d9894816ab623",
+      "raw_bytes": 1015
+    },
+    {
+      "title": "Brother Esau",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Brother_Esau.txt",
+      "song_id": "84c3eafc0a678a09",
+      "status": "ok",
+      "raw_sha256": "bacddba78d44457b0c510fa3bb20d2d051b8ae293c9437271c931e4348a7036d",
+      "raw_bytes": 994
+    },
+    {
+      "title": "Brown Eyed Women",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Brown-Eyed_Women.txt",
+      "song_id": "c88cfa33adf8e3ae",
+      "status": "ok",
+      "raw_sha256": "ad4b67bff9245857c26931d3f3b771cd9984d748218534507f43ff058f75b6c6",
+      "raw_bytes": 1838
+    },
+    {
+      "title": "Built To Last (cont.)",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Built_To_Last_(cont.).txt",
+      "song_id": "a077ee2e03510fda",
+      "status": "ok",
+      "raw_sha256": "f91dba19cafabcc2e28e68a1f90a12b8c0b0edabca820dcaa85d215b6fc2df6b",
+      "raw_bytes": 162
+    },
+    {
+      "title": "Built to Last",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Built_to_Last.txt",
+      "song_id": "c853fa2c92e0ec79",
+      "status": "ok",
+      "raw_sha256": "875e025d0facf2ae471edd23b6f83d0ccaeb8385a694fe560b0ed04c4a7db942",
+      "raw_bytes": 1538
+    },
+    {
+      "title": "C. C. Rider",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/C._C._Rider.txt",
+      "song_id": "16a2ebb00a3ed50c",
+      "status": "ok",
+      "raw_sha256": "c70b1e654039c2d93b885eace1a7fab7a6b24fdc78c0962e89cf9671787317d4",
+      "raw_bytes": 567
+    },
+    {
+      "title": "Can't Come Down",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Can't_Come_Down.txt",
+      "song_id": "b6556800ce3ec195",
+      "status": "ok",
+      "raw_sha256": "75d685dd7bf94685a705c3c51a3bf87eb743876e9ddf94d2fb06087c7b01485d",
+      "raw_bytes": 1149
+    },
+    {
+      "title": "Casey Jones",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Casey_Jones.txt",
+      "song_id": "37ca4e561ba86fe8",
+      "status": "ok",
+      "raw_sha256": "7cb5ef281642dbffe9ae224e34398b85cf663e2d5e2eb4e98013b46b47b26223",
+      "raw_bytes": 945
+    },
+    {
+      "title": "Candyman",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Candyman.txt",
+      "song_id": "1e98d80d2b3b4311",
+      "status": "ok",
+      "raw_sha256": "e8b000e95de1d6b4cdc929b488a7bfd235805f57141de9f7b1fe49d92f669fa4",
+      "raw_bytes": 1102
+    },
+    {
+      "title": "Cassidy",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cassidy.txt",
+      "song_id": "4d0b65568f0d3012",
+      "status": "ok",
+      "raw_sha256": "42098db09d3d08adbe580efe023f04d99ebe0d1c9bf1534a5d97723b428aad57",
+      "raw_bytes": 1000
+    },
+    {
+      "title": "Catfish John",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Catfish_John.txt",
+      "song_id": "cbea7e498ddb7cec",
+      "status": "ok",
+      "raw_sha256": "e26e26ced7652508a7c48efd4e2ed88ebf6c761e887f137241358ae26537a6a2",
+      "raw_bytes": 925
+    },
+    {
+      "title": "Cats Under the Stars",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cats_Under_the_Stars.txt",
+      "song_id": "018afac61b89869b",
+      "status": "ok",
+      "raw_sha256": "74bcebeea99d7964071ef89a3e2b128c734a83d858a30a792bb596d30c461a57",
+      "raw_bytes": 877
+    },
+    {
+      "title": "Caution",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Caution.txt",
+      "song_id": "94e1f408cf87432d",
+      "status": "ok",
+      "raw_sha256": "20d1f2d6dff1975b4e24ae42b85a9f78bd3894063049fe19cc3066886e0ea1a0",
+      "raw_bytes": 633
+    },
+    {
+      "title": "China Cat Sunflower",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/China_Cat_Sunflower.txt",
+      "song_id": "534964264bd7ec7c",
+      "status": "ok",
+      "raw_sha256": "3e483e162392999a7af264315ab37706264df530b4aaa2091c0b103d1fa8ef60",
+      "raw_bytes": 571
+    },
+    {
+      "title": "China Doll",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/China_Doll.txt",
+      "song_id": "bf1f02c90b2686e6",
+      "status": "ok",
+      "raw_sha256": "0b33be770783361d18558bbc1829f076531e6cb1753716f7775c511211c8f010",
+      "raw_bytes": 559
+    },
+    {
+      "title": "Chinatown Shuffle",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Chinatown_Shuffle.txt",
+      "song_id": "91b69dbc40e102be",
+      "status": "ok",
+      "raw_sha256": "64043b0619d8846f354968401222304a9faeabb616276e8567ac943e43edf15d",
+      "raw_bytes": 1028
+    },
+    {
+      "title": "Cocaine",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cocaine.txt",
+      "song_id": "fb89004998c71caf",
+      "status": "ok",
+      "raw_sha256": "4c594ffcc2c7615caa64d2a636783bd5bbb9843f4763a05e5db3a2e8065108c9",
+      "raw_bytes": 1101
+    },
+    {
+      "title": "Cocaine Habit Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cocaine_Habit_Blues.txt",
+      "song_id": "a729bda67d33a49c",
+      "status": "ok",
+      "raw_sha256": "66fd2691666a2e710d04546dc2087d85d5d8d12c27d9033b38535998d93b7269",
+      "raw_bytes": 445
+    },
+    {
+      "title": "Cold Jordan",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cold_Jordan.txt",
+      "song_id": "d3267ced10da14c0",
+      "status": "ok",
+      "raw_sha256": "70067201415781c7127b00f0bd957d593090a973b80e149d864ce3715d1f7b50",
+      "raw_bytes": 1068
+    },
+    {
+      "title": "Cold Rain and Snow",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cold_Rain_and_Snow.txt",
+      "song_id": "6f2ec2431d16fc60",
+      "status": "ok",
+      "raw_sha256": "59a145f604698e32dcc583e9e6eedf6ede49b56076a3bd5bf77ff17fd0fc5f4b",
+      "raw_bytes": 385
+    },
+    {
+      "title": "Comes A Time",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Comes_A_Time.txt",
+      "song_id": "1c46621ecd4c59f9",
+      "status": "ok",
+      "raw_sha256": "056226ba4481aa5f3de27a433e248a98d47e21ecb5e21b6ec30526b314604445",
+      "raw_bytes": 1223
+    },
+    {
+      "title": "Confusion Prince",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Confusion_Prince.txt",
+      "song_id": "72c5655e03c4d1c4",
+      "status": "ok",
+      "raw_sha256": "f2ba2cfe715b11de46cb44dcec4fd3fec7e1899a8d5f64c6c427457ded50749a",
+      "raw_bytes": 485
+    },
+    {
+      "title": "Cosmic Charlie",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cosmic_Charlie.txt",
+      "song_id": "94a2b0454c126303",
+      "status": "ok",
+      "raw_sha256": "6768501dabfa6d501ea3c0c88dc101d2d562bf6e4f72b79864d5bcaf70d80e06",
+      "raw_bytes": 1174
+    },
+    {
+      "title": "Crazy Fingers",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Crazy_Fingers.txt",
+      "song_id": "a754d2ef23cc8319",
+      "status": "ok",
+      "raw_sha256": "9a9004145b6e8ec7926b486877a4d76e2b02f146b8638894bb03b63050a91997",
+      "raw_bytes": 1023
+    },
+    {
+      "title": "Cream Puff War",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cream_Puff_War.txt",
+      "song_id": "3be11557cd6ca00f",
+      "status": "ok",
+      "raw_sha256": "9a39f23cd44a8e0d0a2c8088e6e4b4b0af7c07e6be1e4a41bf6b53b306c4340c",
+      "raw_bytes": 550
+    },
+    {
+      "title": "Cumberland Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Cumberland_Blues.txt",
+      "song_id": "9ae866a4de6d02df",
+      "status": "ok",
+      "raw_sha256": "c40ea0c6b151d4f863a235810c3074fbcdd7cb2b5628d97cdf9525c98dd4bdb3",
+      "raw_bytes": 985
+    },
+    {
+      "title": "Dancing in the Streets",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Dancing_in_the_Streets.txt",
+      "song_id": "5dc61849c3c4ab71",
+      "status": "ok",
+      "raw_sha256": "48b9946286b453530e6006c8225562350be4ff04adedaebb25f08151c65117b2",
+      "raw_bytes": 848
+    },
+    {
+      "title": "Dark Hollow",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Dark_Hollow.txt",
+      "song_id": "38c10faa5515daa2",
+      "status": "ok",
+      "raw_sha256": "b2a07e5f7d1c3197abad553fd06f6074789649f294c5122487ee476bc3355cc8",
+      "raw_bytes": 519
+    },
+    {
+      "title": "Dark Star",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Dark_Star.txt",
+      "song_id": "9cd76e7b2dd968bf",
+      "status": "ok",
+      "raw_sha256": "9a05f3d931569be737f27b2cdb258000ab9d8804244dc861d8c1300a4f3eacd3",
+      "raw_bytes": 490
+    },
+    {
+      "title": "Day Job",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Day_Job.txt",
+      "song_id": "35171e3398105975",
+      "status": "ok",
+      "raw_sha256": "e553fc0629fc2fc599a0da5cab3a510c212aa6d944e23cb8ef196055b1375f59",
+      "raw_bytes": 881
+    },
+    {
+      "title": "Day Tripper",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Day_Tripper.txt",
+      "song_id": "aaee6261f7ae54bd",
+      "status": "ok",
+      "raw_sha256": "1dc2ea516b1b8f4aabaaac856a47a8e6d04113f9073c45c59111df426947016b",
+      "raw_bytes": 634
+    },
+    {
+      "title": "Deal",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Deal.txt",
+      "song_id": "43d939cd78257a79",
+      "status": "ok",
+      "raw_sha256": "3beeeb66aae4381df2c14f6512528fb6285b6126a88a3c1a9d5733a120b7d89a",
+      "raw_bytes": 1009
+    },
+    {
+      "title": "Dear Mr. Fantasy",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Dear_Mr._Fantasy.txt",
+      "song_id": "338bb80afc96157a",
+      "status": "ok",
+      "raw_sha256": "5b1a1da482bcf114afeb957424b7270ef75192b8f0cac6b8588993c402c5fb38",
+      "raw_bytes": 470
+    },
+    {
+      "title": "Dear Prudence",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Dear_Prudence.txt",
+      "song_id": "7f428be47d12fdf6",
+      "status": "ok",
+      "raw_sha256": "162909dda76e5a66e57818a32bd9354155e3eae3fb99791ccb468c882f534f2c",
+      "raw_bytes": 609
+    },
+    {
+      "title": "Death Don't Have No Mercy",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Death_Don't_Have_No_Mercy.txt",
+      "song_id": "0c39a84c5fc24457",
+      "status": "ok",
+      "raw_sha256": "f1365c0ac119fdf03ee3a67fb1faf15ce6d7074419caff2ef716f3b9120b663f",
+      "raw_bytes": 1122
+    },
+    {
+      "title": "Deep Elem Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Deep_Elem_Blues.txt",
+      "song_id": "4857681e9f61b41b",
+      "status": "ok",
+      "raw_sha256": "14c772f148baa48f58287623674cf35785f23c4e3589c9d7578de32d73d5847f",
+      "raw_bytes": 697
+    },
+    {
+      "title": "Desolation Row",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Desolation_Row.txt",
+      "song_id": "d9a725e14f9a0d2e",
+      "status": "ok",
+      "raw_sha256": "1302d25eb948f74a3afd65734785fe4d6aeaa5b4b5632ba962456f70723b0e42",
+      "raw_bytes": 2177
+    },
+    {
+      "title": "Dire Wolf",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Dire_Wolf.txt",
+      "song_id": "187e6915463d261f",
+      "status": "ok",
+      "raw_sha256": "00fe4d3ba28fc9c47addc21c00f027a1a9de250cd5540b4f9673eab161420fa8",
+      "raw_bytes": 1078
+    },
+    {
+      "title": "Doin' That Rag",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Doin'_That_Rag.txt",
+      "song_id": "182f62b256195fae",
+      "status": "ok",
+      "raw_sha256": "7039f5908a30085ec80c5e386631ac0f25d1a5654224b1344e4063924f98a2a3",
+      "raw_bytes": 1665
+    },
+    {
+      "title": "Don't Ease Me In",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Don't_Ease_Me_In.txt",
+      "song_id": "eb754884d1d05910",
+      "status": "ok",
+      "raw_sha256": "b631ac3897b692d84b6f8dff54dbcd2259da4eaddeec66f5ae5afe5d6ef08fd9",
+      "raw_bytes": 490
+    },
+    {
+      "title": "Don't Need Love",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Don't_Need_Love.txt",
+      "song_id": "80ad3aa5ae760dc1",
+      "status": "ok",
+      "raw_sha256": "613aad33c922273499f52bc60229702a215895b78fd7f565180cb3515854c634",
+      "raw_bytes": 706
+    },
+    {
+      "title": "Don't Think Twice, It's All Right",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Don't_Think_Twice,_It's_All_Right.txt",
+      "song_id": "bd850dfeafd52340",
+      "status": "ok",
+      "raw_sha256": "d8a8fad6ec7947cf129657a53a7e9c783e21b5afb97352f1c097d034b772a788",
+      "raw_bytes": 1255
+    },
+    {
+      "title": "Drink Up and Go Home",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Drink_Up_and_Go_Home.txt",
+      "song_id": "f0888de6a0e5e39d",
+      "status": "ok",
+      "raw_sha256": "cfd62ba9e78a9d296bef4b3b708d2da851d8ad17a42943730496e3bb264f8887",
+      "raw_bytes": 419
+    },
+    {
+      "title": "Dupree's Diamond Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Dupree's_Diamond_Blues.txt",
+      "song_id": "66c44767f5e1079d",
+      "status": "ok",
+      "raw_sha256": "354351df350ecdef1b65e231e67e66522e251a73012df7244069f0df8f3ce85c",
+      "raw_bytes": 1603
+    },
+    {
+      "title": "Early Morning Rain",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Early_Morning_Rain.txt",
+      "song_id": "08de1db79778dd1f",
+      "status": "ok",
+      "raw_sha256": "3dfcf2413a5786541a10cf5747c29f76006ad9b848f9f273f9f315900374f6fc",
+      "raw_bytes": 918
+    },
+    {
+      "title": "Easy To Love You",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Easy_To_Love_You.txt",
+      "song_id": "0c40de1b7a1d9c65",
+      "status": "ok",
+      "raw_sha256": "549aea164f87bdf1dacd7f301f989b047326a2f3434cd78478adc8e8a2f0b74c",
+      "raw_bytes": 577
+    },
+    {
+      "title": "Easy Wind",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Easy_Wind.txt",
+      "song_id": "1bf3dd989068dd9a",
+      "status": "ok",
+      "raw_sha256": "cf14cb45f699c9421eaf817311946793b192b2664ab1bafb6fa92e0b09ce4907",
+      "raw_bytes": 902
+    },
+    {
+      "title": "El Paso...",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/El_Paso....txt",
+      "song_id": "97a3bd7fe2fedfd7",
+      "status": "ok",
+      "raw_sha256": "d92b47fa9de8ec2aa0acdece6d68a9370cdf21adcc7cb71919a2cd5a4ca32e0b",
+      "raw_bytes": 369
+    },
+    {
+      "title": "El Paso",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/El_Paso.txt",
+      "song_id": "67844972fdb1877d",
+      "status": "ok",
+      "raw_sha256": "5bc89cacdceca0fcb36fb36677676c485f42691c7621355bccbda284264b8732",
+      "raw_bytes": 1970
+    },
+    {
+      "title": "The Eleven",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Eleven.txt",
+      "song_id": "ea002118e7191ef3",
+      "status": "ok",
+      "raw_sha256": "d31221d4fe46ac6fe25e4eb7e50353ddc1f8dadf55170ff2ff4238b79c8c3704",
+      "raw_bytes": 1096
+    },
+    {
+      "title": "Empty Pages",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Empty_Pages.txt",
+      "song_id": "10488e17464139bf",
+      "status": "ok",
+      "raw_sha256": "d440fbd9e55cf1f09d32156cd523a3ef3075ee6b0a1f50570bb45e6837ad5146",
+      "raw_bytes": 546
+    },
+    {
+      "title": "Estimated Prophet",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Estimated_Prophet.txt",
+      "song_id": "226e316c17a5bd9d",
+      "status": "ok",
+      "raw_sha256": "9b150896356d02578d20e26d223243cd4d4c1d750a31527b1b353ebe6c5493db",
+      "raw_bytes": 1774
+    },
+    {
+      "title": "Eyes Of The World",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Eyes_Of_The_World.txt",
+      "song_id": "1d25bb4cc8baaf9f",
+      "status": "ok",
+      "raw_sha256": "ad4e7f07d340e15039f741250e232432f3e5339f77bf850c43cf1d9138c277fc",
+      "raw_bytes": 1497
+    },
+    {
+      "title": "Far From Me",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Far_From_Me.txt",
+      "song_id": "911f05c7eeac2c86",
+      "status": "ok",
+      "raw_sha256": "af84903b82d809da80112b51c8deee28cbd49ab93ed801147e5dc816088151e4",
+      "raw_bytes": 634
+    },
+    {
+      "title": "Feel Like A Stranger",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Feel_Like_A_Stranger.txt",
+      "song_id": "fd732ed8f1b43ce4",
+      "status": "ok",
+      "raw_sha256": "9fcbf19041d4b2d61aaea31f873c7dbd70955804dbf32e67b07d5de38b68a7bb",
+      "raw_bytes": 965
+    },
+    {
+      "title": "Fire On The Mountain",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Fire_On_The_Mountain.txt",
+      "song_id": "a6c86b1d0f364f69",
+      "status": "ok",
+      "raw_sha256": "eadb72bdf7c5b8ce49cbab59af42752b0a45623ae28f3885d98823d38029e1ac",
+      "raw_bytes": 962
+    },
+    {
+      "title": "Forever Young",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Forever_Young.txt",
+      "song_id": "64137bcec632684b",
+      "status": "ok",
+      "raw_sha256": "5e067a6df529f5f1b659192509037a14c32733f8b1d3dece58a74f37a939bf57",
+      "raw_bytes": 839
+    },
+    {
+      "title": "France",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/France.txt",
+      "song_id": "656b15296a2eed2b",
+      "status": "ok",
+      "raw_sha256": "8047095a7dd31aa993830ac0b1ab0a97bf735caab9bb934ba3ac376951572ac3",
+      "raw_bytes": 1124
+    },
+    {
+      "title": "Franklin's Tower",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Franklin's_Tower.txt",
+      "song_id": "d5dc938f305f4218",
+      "status": "ok",
+      "raw_sha256": "42a42f85c5f19e96053539a6792a792ceed47c12b6d8f76e9d571353016b584d",
+      "raw_bytes": 1240
+    },
+    {
+      "title": "Friend of the Devil",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Friend_of_the_Devil.txt",
+      "song_id": "34d45114190b280f",
+      "status": "ok",
+      "raw_sha256": "c7c2c3af8f84bb3519cd2830847356972278a1deb652fcbd8116daff85ac92da",
+      "raw_bytes": 1290
+    },
+    {
+      "title": "From the Heart of Me",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/From_the_Heart_of_Me.txt",
+      "song_id": "c7e0ca9e37071d6f",
+      "status": "ok",
+      "raw_sha256": "b0fab877ff7d04d8946ffb961fbd961f38c6453f4606d8681699e366fded85cf",
+      "raw_bytes": 812
+    },
+    {
+      "title": "Get Back",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Get_Back.txt",
+      "song_id": "15147492c83f6a11",
+      "status": "ok",
+      "raw_sha256": "de0155bbbac9f198bc83c88fdab8c0fc65f619504c6f653a4c37575fca96fab4",
+      "raw_bytes": 714
+    },
+    {
+      "title": "Gimme Some Lovin'",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Gimme_Some_Lovin'.txt",
+      "song_id": "7bd04c93fd8e5421",
+      "status": "ok",
+      "raw_sha256": "b3f8c78d10913f1bb4272d1baee3a9d4212ca85c5b73bb824362a8b501b80c04",
+      "raw_bytes": 695
+    },
+    {
+      "title": "Gloria",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Gloria.txt",
+      "song_id": "3765fa1611ce528d",
+      "status": "ok",
+      "raw_sha256": "52a28aa86f12b1cca09922c34aaf8812fe116fb586d363fb1068d4cf47bb9eb1",
+      "raw_bytes": 649
+    },
+    {
+      "title": "Goin' Down The Road Feelin' Bad",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Goin'_Down_The_Road_Feelin'_Bad.txt",
+      "song_id": "49bb0fd7a21b7b0d",
+      "status": "ok",
+      "raw_sha256": "3c0076d1c1faa2c3966cad324faa82c92fb38d18ca14aafebffbe802e2cffa04",
+      "raw_bytes": 934
+    },
+    {
+      "title": "The Golden Road (to unlimited devotion)",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Golden_Road_(to_unlimited_devotion).txt",
+      "song_id": "c9745ceb558b1c1c",
+      "status": "ok",
+      "raw_sha256": "c0dd25b79b73619e8727ffb5f0f7f3f12dd8eb3be0b1355b1cbf64540cdeb380",
+      "raw_bytes": 771
+    },
+    {
+      "title": "Gomorrah",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Gomorrah.txt",
+      "song_id": "c67a87df8d7f0ae0",
+      "status": "ok",
+      "raw_sha256": "80e0cbb5622931980f34c9cacc08bcd62964dc4b7a6bdec26facdbea9152e517",
+      "raw_bytes": 881
+    },
+    {
+      "title": "Good Lovin'",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Good_Lovin'.txt",
+      "song_id": "35fe1cec757a62c2",
+      "status": "ok",
+      "raw_sha256": "9c496615c3846f1e5ba0c419a9b4fe39537c882d229d54755ab5657945e02aad",
+      "raw_bytes": 2005
+    },
+    {
+      "title": "Good Morning Little Schoolgirl",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Good_Morning_Little_Schoolgirl.txt",
+      "song_id": "d395ffdc6baddb5c",
+      "status": "ok",
+      "raw_sha256": "5f562f3336bd0772b38ad4a7f0f78378231df7903897219c10101072bdcb6149",
+      "raw_bytes": 1676
+    },
+    {
+      "title": "Goodnight Irene",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Goodnight_Irene.txt",
+      "song_id": "3ed625d5c51452e7",
+      "status": "ok",
+      "raw_sha256": "2f0b06677b8f729ecc0032c6e25ff7a2290060eef74d1c3881d489abd52e8c85",
+      "raw_bytes": 618
+    },
+    {
+      "title": "Greatest Story Ever Told",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Greatest_Story_Ever_Told.txt",
+      "song_id": "2e992cc25a23e87d",
+      "status": "ok",
+      "raw_sha256": "08977bc78e8bf28eff20a76c0a2c6b250309ed310395db2c489a7bc6fe7eacec",
+      "raw_bytes": 1164
+    },
+    {
+      "title": "Green, Green Grass of Home",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Green,_Green_Grass_of_Home.txt",
+      "song_id": "9cf51acdc0210118",
+      "status": "ok",
+      "raw_sha256": "c5d445337a50d731dbdcb56dbd3d7649106e5d31786d8b7d60f94c3b7b56730a",
+      "raw_bytes": 898
+    },
+    {
+      "title": "Hard to Handle",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Hard_to_Handle.txt",
+      "song_id": "742a487854f73814",
+      "status": "ok",
+      "raw_sha256": "eb85d871f053e790085905a225e32c5d134fb3d4dfa5ea438af1fcdd22d4ddaf",
+      "raw_bytes": 917
+    },
+    {
+      "title": "The Harder They Come",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Harder_They_Come.txt",
+      "song_id": "4c585ff6c86f4ae4",
+      "status": "ok",
+      "raw_sha256": "dbdcac3dfd564ee4525386ad717b7782bf2ae3c76477b25c97e68c104dadbdd4",
+      "raw_bytes": 1072
+    },
+    {
+      "title": "He's Gone",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/He's_Gone.txt",
+      "song_id": "8571714b127069d9",
+      "status": "ok",
+      "raw_sha256": "67f42a4a871f03a35359eea4bba139eb204c30f4e6e5fb2ca13501e38c92fa88",
+      "raw_bytes": 1161
+    },
+    {
+      "title": "He Was A Friend of Mine",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/He_Was_A_Friend_of_Mine.txt",
+      "song_id": "b8815df12880798a",
+      "status": "ok",
+      "raw_sha256": "e5ab218abc11b6960b4798526f0fa600c434cc306b74f519e2149dd6b0e76efe",
+      "raw_bytes": 298
+    },
+    {
+      "title": "Heaven Help The Fool",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Heaven_Help_The_Fool.txt",
+      "song_id": "9ba48edbcdd3a778",
+      "status": "ok",
+      "raw_sha256": "71077b586527e4ef82b722adc72b806ebf0ec082a3a15e617025a0f084ab97c3",
+      "raw_bytes": 1423
+    },
+    {
+      "title": "Hell in a Bucket",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Hell_in_a_Bucket.txt",
+      "song_id": "8ee5a194f5179d60",
+      "status": "ok",
+      "raw_sha256": "0cef6669c914ffb5307939ad5e92718d85793fd69d3c93caeaa721577567c660",
+      "raw_bytes": 1912
+    },
+    {
+      "title": "Help on the Way",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Help_on_the_Way.txt",
+      "song_id": "49fff8200588bd8f",
+      "status": "ok",
+      "raw_sha256": "a0247544fc770b17296382e4646f2be2a24fe725bc8ab446397d1836db2897f4",
+      "raw_bytes": 768
+    },
+    {
+      "title": "Henry",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Henry.txt",
+      "song_id": "4dbf248c78e78b3c",
+      "status": "ok",
+      "raw_sha256": "87117a4790370f964f64a9dd37582c6fd0a381125f5a5d53d1d36ef69d1780bf",
+      "raw_bytes": 1065
+    },
+    {
+      "title": "Here Comes Sunshine",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Here_Comes_Sunshine.txt",
+      "song_id": "6164702ed73accc2",
+      "status": "ok",
+      "raw_sha256": "34274ab2e9ec98f6b5ef836c28a70c50a2298b255989a9d0b850af166cb09113",
+      "raw_bytes": 551
+    },
+    {
+      "title": "Hey Little One",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Hey_Little_One.txt",
+      "song_id": "dd0c955d119b2d8c",
+      "status": "ok",
+      "raw_sha256": "ad4cf4d375c927a057aca326161382556f4abaa2fb2136ea8adcd6b19b1a4414",
+      "raw_bytes": 336
+    },
+    {
+      "title": "High Heeled Sneakers",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/High_Heeled_Sneakers.txt",
+      "song_id": "f31449f7369e6df2",
+      "status": "ok",
+      "raw_sha256": "cea2c40d29c15c09c59685470f66d8590ddbda1cf6e79bb9ce72e8270f5a395c",
+      "raw_bytes": 274
+    },
+    {
+      "title": "High Time",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/High_Time.txt",
+      "song_id": "8cd2c9481b4d1a45",
+      "status": "ok",
+      "raw_sha256": "73f8af100f6799e4452103dd7ee3742323ca7a3543b0bdddcdc7c6beec666d31",
+      "raw_bytes": 764
+    },
+    {
+      "title": "Hitch Hiking Woman",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Hitch_Hiking_Woman.txt",
+      "song_id": "22c5b4168e04fae1",
+      "status": "ok",
+      "raw_sha256": "a9f6cfde479f0ac841e1373aeb42a1901cacbb5b17fdcd18974d7c9656dc18f6",
+      "raw_bytes": 238
+    },
+    {
+      "title": "How Long Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/How_Long_Blues.txt",
+      "song_id": "ace6b386529d9873",
+      "status": "ok",
+      "raw_sha256": "98ae7dde93dd09995ecea03f462e3b407c688666084a7f59857b9e47faa6c0ea",
+      "raw_bytes": 369
+    },
+    {
+      "title": "How Sweet It Is",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/How_Sweet_It_Is.txt",
+      "song_id": "2d126465be1bcccb",
+      "status": "ok",
+      "raw_sha256": "677e1d035645f83530758733c6650591566a8bd2eca1c12bb083a89350d32343",
+      "raw_bytes": 690
+    },
+    {
+      "title": "Hully Gully",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Hully_Gully.txt",
+      "song_id": "8f4d365e874f0c1b",
+      "status": "ok",
+      "raw_sha256": "029cf3bd2a8f7955f89ccb8484e2ee6a73d72ec13aa3feb4b655f27d96d1dd2b",
+      "raw_bytes": 705
+    },
+    {
+      "title": "Hurts Me Too",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Hurts_Me_Too.txt",
+      "song_id": "f9d2b6a0a3c919d4",
+      "status": "ok",
+      "raw_sha256": "083cd6fa0cd6f15cf040536034d74ee278673e40646b2eb88f07522791344496",
+      "raw_bytes": 690
+    },
+    {
+      "title": "I'll Take A Melody",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I'll_Take_A_Melody.txt",
+      "song_id": "a9d7ba817413ceee",
+      "status": "ok",
+      "raw_sha256": "cc3c35150c255e45ea478188bd5a95df0bec6b3ce7aa8058f37f47f376c56f93",
+      "raw_bytes": 1463
+    },
+    {
+      "title": "I'm A Hog For You",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I'm_A_Hog_For_You.txt",
+      "song_id": "afeeec76b6923853",
+      "status": "ok",
+      "raw_sha256": "0c89fb9c980dfb801a16b6dba8e72706f551c797be805d919ebcc10a1fea4115",
+      "raw_bytes": 383
+    },
+    {
+      "title": "I've Been All Around This World",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I've_Been_All_Around_This_World.txt",
+      "song_id": "4da9cd666f07d96d",
+      "status": "ok",
+      "raw_sha256": "d385d7d70321572928c00741ee2d51fae0ed957782b4fae5359a75ad702604cd",
+      "raw_bytes": 998
+    },
+    {
+      "title": "I Believe",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I_Believe.txt",
+      "song_id": "bb4dc4a06734cc1f",
+      "status": "ok",
+      "raw_sha256": "db554dd66b21569272ef0fef08d214f89fc5b8401d5f4229a12c6b2833f5156d",
+      "raw_bytes": 694
+    },
+    {
+      "title": "I Hear A Voice Calling",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I_Hear_A_Voice_Calling.txt",
+      "song_id": "5d50efd79132fbf9",
+      "status": "ok",
+      "raw_sha256": "18c2054c7c3463cfdd8d115ceabdcd6dda13726c9c9eafb11b229044bc6e2e72",
+      "raw_bytes": 392
+    },
+    {
+      "title": "I Just Wanna Make Love To You",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I_Just_Wanna_Make_Love_To_You.txt",
+      "song_id": "15f89631f64d3a5b",
+      "status": "ok",
+      "raw_sha256": "43e9342e49ed9d0c644d95efbb23217486325c915aadf04d23ea01bdb4d20089",
+      "raw_bytes": 556
+    },
+    {
+      "title": "I Know You Rider",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I_Know_You_Rider.txt",
+      "song_id": "67e15443de7f4da9",
+      "status": "ok",
+      "raw_sha256": "d482372cc3a1072bb75cd5f0de03d2fb6e49348ecea21854be4e32dc47d7400a",
+      "raw_bytes": 754
+    },
+    {
+      "title": "I Need A Miracle",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I_Need_A_Miracle.txt",
+      "song_id": "987553c6001ba9cd",
+      "status": "ok",
+      "raw_sha256": "909e87c051edf99cbd868000224738fea64adc000fd65d23e8717e94bc9218a8",
+      "raw_bytes": 1108
+    },
+    {
+      "title": "I Saw Her Standing There",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I_Saw_Her_Standing_There.txt",
+      "song_id": "61667dc506ed2406",
+      "status": "ok",
+      "raw_sha256": "04360e4aa8cd23ec911e486d0ab182176725cbf48389484f73869708826bbc62",
+      "raw_bytes": 595
+    },
+    {
+      "title": "I Second That Emotion",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I_Second_That_Emotion.txt",
+      "song_id": "c92315be5269d4b6",
+      "status": "ok",
+      "raw_sha256": "17e2972e3dcd6713741c7b6b500117dad7baa8e8236fb9c14dfee434d6ae230c",
+      "raw_bytes": 725
+    },
+    {
+      "title": "I Wash My Hands",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/I_Wash_My_Hands.txt",
+      "song_id": "071da9f07398d212",
+      "status": "ok",
+      "raw_sha256": "b902b071e1fb73be843275c8e81ddd96d14400891af3cb4f25e25822af0e47cd",
+      "raw_bytes": 284
+    },
+    {
+      "title": "If I Had The World To Give",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/If_I_Had_The_World_To_Give.txt",
+      "song_id": "23ec0dde91d9b63c",
+      "status": "ok",
+      "raw_sha256": "39082bb327202263b0e13e6ebdff5ddad18370b8545cec235d31abc7d4c587d5",
+      "raw_bytes": 947
+    },
+    {
+      "title": "It's A Man's World",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/It's_A_Man's_World.txt",
+      "song_id": "443255ddc9976cf6",
+      "status": "ok",
+      "raw_sha256": "ab1fd722935b4764fc8d8d8343f7d44bd7381ca3f518b07942ac973a1ed5a35e",
+      "raw_bytes": 524
+    },
+    {
+      "title": "It's All Over Now Baby Blue",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/It's_All_Over_Now_Baby_Blue.txt",
+      "song_id": "f1124bf556a48d36",
+      "status": "ok",
+      "raw_sha256": "e4cbf923e795f77e4f2c85a79f02a3f3f39dee94a60eae7f791ff9adfdf19ffd",
+      "raw_bytes": 1197
+    },
+    {
+      "title": "It Must Have Been The Roses",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/It_Must_Have_Been_The_Roses.txt",
+      "song_id": "157432f25429bbc1",
+      "status": "ok",
+      "raw_sha256": "23c546fa50d39d47dd69ade17de0e78d1a4ffe2fd6a0fb2b07af8ce6ad8eb814",
+      "raw_bytes": 1298
+    },
+    {
+      "title": "It Takes A Lot To Laugh, It Takes A Train To Cry",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/It_Takes_A_Lot_To_Laugh,_It_Takes_A_Train_To_Cry.txt",
+      "song_id": "493058f6f037437c",
+      "status": "ok",
+      "raw_sha256": "db535f6bda263f385310b0907bf5e4bd69c06150017631c76a991fe9acd32065",
+      "raw_bytes": 708
+    },
+    {
+      "title": "Jack A Roe",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Jack-A-Roe.txt",
+      "song_id": "a49da54e92f4d1c9",
+      "status": "ok",
+      "raw_sha256": "bc0b450214573531ef20909179832f98672a22aff55483f12668235bd620c90c",
+      "raw_bytes": 1406
+    },
+    {
+      "title": "Jack Straw",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Jack_Straw.txt",
+      "song_id": "e678ad2d85f6424d",
+      "status": "ok",
+      "raw_sha256": "ea53c94fb5333c0e0e646246280f1c647ad389ed6c925bc98e3170bc3994b751",
+      "raw_bytes": 1396
+    },
+    {
+      "title": "Johnny B. Goode",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Johnny_B._Goode.txt",
+      "song_id": "3ec8170991d79c97",
+      "status": "ok",
+      "raw_sha256": "ff9dd01decc168c7e30bf1310f336477e4f099c884d6ab8bd332deae3cfdd0de",
+      "raw_bytes": 879
+    },
+    {
+      "title": "K. C. Road",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/K._C._Road.txt",
+      "song_id": "371915da9364ba29",
+      "status": "ok",
+      "raw_sha256": "731cd48f5d7e96dac8464829923702a559ede495e7ff3b7b0d7d18c78c0eb11e",
+      "raw_bytes": 248
+    },
+    {
+      "title": "Kansas City",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Kansas_City.txt",
+      "song_id": "3bcaec71a9efb6d9",
+      "status": "ok",
+      "raw_sha256": "f1e1c2a979c5d142d167df3305d758630d76f0e0edce334e2a15a2fc66da2fad",
+      "raw_bytes": 988
+    },
+    {
+      "title": "Katie Mae",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Katie_Mae.txt",
+      "song_id": "01ecdbf5fb47d542",
+      "status": "ok",
+      "raw_sha256": "3a54b8f7de596c414d3a8d6df486a9eaeb5dcf20e80f562b1007e8b979cb37c3",
+      "raw_bytes": 633
+    },
+    {
+      "title": "Keep On Growing",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Keep_On_Growing.txt",
+      "song_id": "7027d0001cbab37e",
+      "status": "ok",
+      "raw_sha256": "f70cec844e116607920f409ee5fc8536b43b5a9c72d265e36aef42a567f3e83f",
+      "raw_bytes": 1124
+    },
+    {
+      "title": "King Bee",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/King_Bee.txt",
+      "song_id": "6f7b47d0bb727b13",
+      "status": "ok",
+      "raw_sha256": "4ad0b6d368e988b1383cc7347696802a72a6b8c757ea905536d46adb3d834183",
+      "raw_bytes": 739
+    },
+    {
+      "title": "Knockin' On Heaven's Door",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Knockin'_On_Heaven's_Door.txt",
+      "song_id": "dc3949f86ccd9ccf",
+      "status": "ok",
+      "raw_sha256": "319cf877b8ca4bf80aec7d228d3c2b8c491ba2082b5b4e506fa62059b133389e",
+      "raw_bytes": 348
+    },
+    {
+      "title": "Last Train to Jacksonville",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Last_Train_to_Jacksonville.txt",
+      "song_id": "2297dd1ec7ba56dc",
+      "status": "ok",
+      "raw_sha256": "a54c9ed169c347b75444e4fdf399bf121c0a1e81bb3d64a0730386b21a6658cd",
+      "raw_bytes": 943
+    },
+    {
+      "title": "Lazy Lightnin'",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Lazy_Lightnin'.txt",
+      "song_id": "9088ae78282e8972",
+      "status": "ok",
+      "raw_sha256": "e351490fc148cc8fbb6097eb976a1be91274910c20d0848984f197a803c43b42",
+      "raw_bytes": 1371
+    },
+    {
+      "title": "Let It Rock",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Let_It_Rock.txt",
+      "song_id": "d2f8e7c09747d4fb",
+      "status": "ok",
+      "raw_sha256": "4f0b34e8330698c281345c434fccd006aaf3e57ceb559a9646fdafd0e73efe57",
+      "raw_bytes": 863
+    },
+    {
+      "title": "Let Me In 83968",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Let_Me_In_83968.txt",
+      "song_id": "d1ff6ce255eb9bc3",
+      "status": "ok",
+      "raw_sha256": "dfdaa2545d7eaef1a700db34392717505cfaa56de5f6c29137308b669e9cef28",
+      "raw_bytes": 679
+    },
+    {
+      "title": "Let Me Sing Your Blues Away",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Let_Me_Sing_Your_Blues_Away.txt",
+      "song_id": "933d4c512a02d720",
+      "status": "ok",
+      "raw_sha256": "8e5a002b7c8929fca669b14394f81f75cff04e25a7f71781416c5c5ff9c7890f",
+      "raw_bytes": 1064
+    },
+    {
+      "title": "Lindy",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Lindy.txt",
+      "song_id": "8c8bb345bf00c81d",
+      "status": "ok",
+      "raw_sha256": "d2badf0a4a6f4bae77c9547c2c81b8b58e823f326b77ebeb36013f30648cb744",
+      "raw_bytes": 794
+    },
+    {
+      "title": "Little Star ?",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Little_Star.txt",
+      "song_id": "d1e96989cd74fc07",
+      "status": "ok",
+      "raw_sha256": "78b3a7fdf30fa5fa5f4ffd110f45e94e5812542f28af0b137d2d1bb081c1873f",
+      "raw_bytes": 170
+    },
+    {
+      "title": "Little Red Rooster",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Little_Red_Rooster.txt",
+      "song_id": "9e7b03062a7f5d25",
+      "status": "ok",
+      "raw_sha256": "0e94ef4d29d04fbbb571fd94bce2aa8ec34f3241fa626215fbac130562749773",
+      "raw_bytes": 773
+    },
+    {
+      "title": "Little Sadie",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Little_Sadie.txt",
+      "song_id": "c04ee06cc5fc4769",
+      "status": "ok",
+      "raw_sha256": "dfb3640c8a97a3ce3c4102473a453581df0a13233e80a44d049c8acfa0af5c4a",
+      "raw_bytes": 923
+    },
+    {
+      "title": "Logger Song",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Logger_Song.txt",
+      "song_id": "05691a0ac42016be",
+      "status": "ok",
+      "raw_sha256": "aca72948a33bd41988450b2eb5dc6b3c4f16bbf753bcfb8e976cadf6718edf46",
+      "raw_bytes": 296
+    },
+    {
+      "title": "Long Black Limousine",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Long_Black_Limousine.txt",
+      "song_id": "1d4ecb034ccfd1ec",
+      "status": "ok",
+      "raw_sha256": "93476197549d6b4efa175ba76b7b140512a688b9d3e9dc59479c696c4f8267d5",
+      "raw_bytes": 363
+    },
+    {
+      "title": "Looks Like Rain",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Looks_Like_Rain.txt",
+      "song_id": "0ba5ba0404f1ca4e",
+      "status": "ok",
+      "raw_sha256": "579da63e495583b265bd087e7644317712c70936e0241116b597916dc0d8f6d2",
+      "raw_bytes": 1133
+    },
+    {
+      "title": "Loose Lucy",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Loose_Lucy.txt",
+      "song_id": "662b16c8a515537e",
+      "status": "ok",
+      "raw_sha256": "d48666d591bc81861414f6e70b3c9cb287bcd44f36c847710e004e22e856c308",
+      "raw_bytes": 1419
+    },
+    {
+      "title": "Loser",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Loser.txt",
+      "song_id": "c625f1b2ce5c3511",
+      "status": "ok",
+      "raw_sha256": "73135d703e50c431f4191c007d799c4695c6e4ae1b35bbbc97183204b67c977d",
+      "raw_bytes": 1178
+    },
+    {
+      "title": "Lost Sailor",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Lost_Sailor.txt",
+      "song_id": "4bfa8ebf185784d3",
+      "status": "ok",
+      "raw_sha256": "ba75231bcd96871bccd8e4ace49357920a7c917e717ecd82c68761685ef851ab",
+      "raw_bytes": 1308
+    },
+    {
+      "title": "Louie, Louie",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Louie,_Louie.txt",
+      "song_id": "04e321b995e8da89",
+      "status": "ok",
+      "raw_sha256": "febd7770d258d54e3168b2c9a417f5b16d0fcb7da30b9045c3b9dcb4c87ab26b",
+      "raw_bytes": 621
+    },
+    {
+      "title": "Love in the Afternoon",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Love_in_the_Afternoon.txt",
+      "song_id": "972438236239d7fa",
+      "status": "ok",
+      "raw_sha256": "28b08280d3cc05055c6220f14e6add1d54c28a9c52d5d73123bbbb79d558c841",
+      "raw_bytes": 759
+    },
+    {
+      "title": "Mama Tried",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mama_Tried.txt",
+      "song_id": "8ae542977ef24b18",
+      "status": "ok",
+      "raw_sha256": "82ee31b25565bcde4e7a87442e586eb5dd5bb60fe62bf5bd8b3f045bcbe73c37",
+      "raw_bytes": 1059
+    },
+    {
+      "title": "Man Smart, Women Smarter",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Man_Smart,_Women_Smarter.txt",
+      "song_id": "d53c5b9431e75853",
+      "status": "ok",
+      "raw_sha256": "31c47073eea902b911a8e4c1543e8e335be2cabfd7f08f15a748cff47c71fe7c",
+      "raw_bytes": 1059
+    },
+    {
+      "title": "Mason's Children",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mason's_Children.txt",
+      "song_id": "76dac5c603923d08",
+      "status": "ok",
+      "raw_sha256": "5d5e297f0666a0f495ceee244066193399d68a72dedeecf772cff5a71f740fbd",
+      "raw_bytes": 815
+    },
+    {
+      "title": "Maybe You Know",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Maybe_You_Know.txt",
+      "song_id": "e89b9d927795c66b",
+      "status": "ok",
+      "raw_sha256": "e05aacef7bcb6aad685ce5916d616f5b59777959090bc8269f23224fae99e829",
+      "raw_bytes": 738
+    },
+    {
+      "title": "Me and Bobby McGee",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Me_and_Bobby_McGee.txt",
+      "song_id": "becaf5a82a2ebb49",
+      "status": "ok",
+      "raw_sha256": "e534319236e97485867796d27e0bf157e4bed5765f26d351830400e1d10b0618",
+      "raw_bytes": 1422
+    },
+    {
+      "title": "Me and My Uncle",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Me_and_My_Uncle.txt",
+      "song_id": "6d0aed9f229f7c69",
+      "status": "ok",
+      "raw_sha256": "f2695a13b0bb5ece1e1e9d5f0dfecbe697136ec6936342f5993695e31b27c52f",
+      "raw_bytes": 1328
+    },
+    {
+      "title": "Mercy of a Fool",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mercy_of_a_Fool.txt",
+      "song_id": "608b651dbb562f3d",
+      "status": "ok",
+      "raw_sha256": "f74287fad84a4eddb9554f3aa5ace6daad838a882b0648bcc2af772f9d32c040",
+      "raw_bytes": 617
+    },
+    {
+      "title": "Mexicali Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mexicali_Blues.txt",
+      "song_id": "535811093a819241",
+      "status": "ok",
+      "raw_sha256": "a0653b31efede69b8de508489ffa665aa3c7f1aba1b62f61d64b93e8cbd3ad62",
+      "raw_bytes": 1887
+    },
+    {
+      "title": "Midnight Hour",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Midnight_Hour.txt",
+      "song_id": "bcdfa0ecbbfa1690",
+      "status": "ok",
+      "raw_sha256": "274e8a0c14ce22ef135f87432e2c1e17f589f34b8cffe95912ec64c993b586f5",
+      "raw_bytes": 423
+    },
+    {
+      "title": "Midnight Moonlight",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Midnight_Moonlight.txt",
+      "song_id": "e7652afb42a87704",
+      "status": "ok",
+      "raw_sha256": "de36c169a7aab1d570884b4634d11c7ea712181e610ee69b1363c35332fb8a82",
+      "raw_bytes": 661
+    },
+    {
+      "title": "Might As Well",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Might_As_Well.txt",
+      "song_id": "32dc5f27367629f2",
+      "status": "ok",
+      "raw_sha256": "75b93595d7b911f1caea4449f4f932adb6379ed8efc3f7dff08338945645bc11",
+      "raw_bytes": 1414
+    },
+    {
+      "title": "Mission in the Rain",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mission_in_the_Rain.txt",
+      "song_id": "93f0cef2a492943d",
+      "status": "ok",
+      "raw_sha256": "b314587c891546366684395ec8851031a533bbd838b42b2c9c5febae1bf05752",
+      "raw_bytes": 1084
+    },
+    {
+      "title": "Mississippi Halfstep Uptown Toodeloo",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mississippi_Halfstep_Uptown_Toodeloo.txt",
+      "song_id": "8cd02462f66b1a3d",
+      "status": "ok",
+      "raw_sha256": "80f65d5d6c960df3fc44fc5d2212db876c0367f0b390b645a9bc99e5ed3c8e40",
+      "raw_bytes": 1212
+    },
+    {
+      "title": "Mister Charlie",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mister_Charlie.txt",
+      "song_id": "3d9cea42469246f7",
+      "status": "ok",
+      "raw_sha256": "a9f28c78cd7c1d0ca5475a6558f7c5438cc4de9910b05fe7a2632007bda8f806",
+      "raw_bytes": 1015
+    },
+    {
+      "title": "Money, Money",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Money,_Money.txt",
+      "song_id": "9fd0cb08a5bbb865",
+      "status": "ok",
+      "raw_sha256": "400be61e317e06df5fb1e7d5d774025ebe8ab6ca42ff79709de45d1a692131b6",
+      "raw_bytes": 1393
+    },
+    {
+      "title": "Monkey and the Engineer",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Monkey_and_the_Engineer.txt",
+      "song_id": "bc2fc043b771f3c8",
+      "status": "ok",
+      "raw_sha256": "4a1819d8b040b63cac08e7824a2f420b4130d0359ea35d4497d2aad71efb8721",
+      "raw_bytes": 1077
+    },
+    {
+      "title": "Morning Dew",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Morning_Dew.txt",
+      "song_id": "99a7b6b54ce33773",
+      "status": "ok",
+      "raw_sha256": "53bb642afa996b71e5e5881781b1dfa275d9bc725f5d28dff8bfe252930426b6",
+      "raw_bytes": 985
+    },
+    {
+      "title": "Mountains of the Moon",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mountains_of_the_Moon.txt",
+      "song_id": "25e81794de165486",
+      "status": "ok",
+      "raw_sha256": "8cefd96265c09d8a25b649e72daa4c7ae3ade7c13c9ecb5da51c38f8ae55c007",
+      "raw_bytes": 1101
+    },
+    {
+      "title": "The Music Never Stopped",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Music_Never_Stopped.txt",
+      "song_id": "f9b8d3f2fce9902e",
+      "status": "ok",
+      "raw_sha256": "49bce78573180c168600b5b2c2f0ddfb07d75c15f1c6e45d0f9956eff26821e2",
+      "raw_bytes": 1392
+    },
+    {
+      "title": "My Baby",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/My_Baby.txt",
+      "song_id": "069777f8e65bb1e6",
+      "status": "ok",
+      "raw_sha256": "679330cd8ce78c3f81742c1fc279aae7eed9afcb9eb546c25f1fa733133c711c",
+      "raw_bytes": 51
+    },
+    {
+      "title": "Mystery Train",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Mystery_Train.txt",
+      "song_id": "ed3b31cfda12e92f",
+      "status": "ok",
+      "raw_sha256": "529b4c4fed27f1a2988911c288171de455ee020bf60ea7dc7af9fe96fdc7e3ab",
+      "raw_bytes": 678
+    },
+    {
+      "title": "Never Trust A Woman",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Never_Trust_A_Woman.txt",
+      "song_id": "2a238baf736056f8",
+      "status": "ok",
+      "raw_sha256": "8e81773a17668b1bc7d13712ab3df39b14d79b123ef1aebb6fa28e90b729c784",
+      "raw_bytes": 443
+    },
+    {
+      "title": "New Minglewood Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/New_Minglewood_Blues.txt",
+      "song_id": "376616df531c5aa2",
+      "status": "ok",
+      "raw_sha256": "a213d476aa2b9c644f6974f1f793693a4b0660f9ee2f36a74c3bba6c53af6f85",
+      "raw_bytes": 364
+    },
+    {
+      "title": "New Orleans",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/New_Orleans.txt",
+      "song_id": "4123a007b66acb48",
+      "status": "ok",
+      "raw_sha256": "b3681f7a3823ab163aa41c5f231bee5ed210383e44eda08860c9c4f402ecec63",
+      "raw_bytes": 562
+    },
+    {
+      "title": "New Potato Caboose",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/New_Potato_Caboose.txt",
+      "song_id": "93893880d2d96794",
+      "status": "ok",
+      "raw_sha256": "ae1720d38b4b1e9d4619dc3a1262bb537b8a86a0a51246bd3d63cf7eeed01816",
+      "raw_bytes": 552
+    },
+    {
+      "title": "New Speedway Boogie",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/New_Speedway_Boogie.txt",
+      "song_id": "3ffb3e75bda1dcc7",
+      "status": "ok",
+      "raw_sha256": "573aeeba43bbe9acc3de8cfac569dd2256a8849b03eabb5fc47ef879b7e8badb",
+      "raw_bytes": 1309
+    },
+    {
+      "title": "Next Time You See Me",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Next_Time_You_See_Me.txt",
+      "song_id": "1513b6ca88fe0f5e",
+      "status": "ok",
+      "raw_sha256": "f49f46461d63e0af9c287432b2e18595bedb0edb12c54ebbe3faf3756d7dbcaf",
+      "raw_bytes": 842
+    },
+    {
+      "title": "The Night They Drove Ole Dixie Down",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Night_They_Drove_Ole_Dixie_Down.txt",
+      "song_id": "b0d872583db02c64",
+      "status": "ok",
+      "raw_sha256": "a7577b501b9aa992553d04c410a3d46dda821a08836e240ad998490e150dfd9d",
+      "raw_bytes": 972
+    },
+    {
+      "title": "No Tomorrow",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/No_Tomorrow.txt",
+      "song_id": "d38da15679da1188",
+      "status": "ok",
+      "raw_sha256": "649ba147c9f2e801e78a852aa4d8e7ceb82a666e1472af5e0795b17c2979c7d1",
+      "raw_bytes": 1378
+    },
+    {
+      "title": "Nobody's Fault But Mine",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Nobody's_Fault_But_Mine.txt",
+      "song_id": "a8386f0e45f26d1a",
+      "status": "ok",
+      "raw_sha256": "a26f847052bf571ea81a671d7ceac82286c1d75dcbab0d04b952592b251822dd",
+      "raw_bytes": 273
+    },
+    {
+      "title": "Not Fade Away",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Not_Fade_Away.txt",
+      "song_id": "34e4af7561143ce7",
+      "status": "ok",
+      "raw_sha256": "02498dd1646120db14ef6df1eef52b8592ce8d34136d406a8a058d0e8753b3b9",
+      "raw_bytes": 394
+    },
+    {
+      "title": "Oakie From Muskogee",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Oakie_From_Muskogee.txt",
+      "song_id": "682d7d067556a230",
+      "status": "ok",
+      "raw_sha256": "2981800eaeb7cbfab4d04b3617226fade35d95d636a89883d46d096674e59ae1",
+      "raw_bytes": 986
+    },
+    {
+      "title": "Oh Boy",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Oh_Boy.txt",
+      "song_id": "f9b6d5d403de99c2",
+      "status": "ok",
+      "raw_sha256": "3966ee7ddbd059bcf038ee8a84f4a84955c2c8a8385a3b9d086c7d063f1ddca6",
+      "raw_bytes": 460
+    },
+    {
+      "title": "On The Road Again",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/On_The_Road_Again.txt",
+      "song_id": "beceef1631b8755d",
+      "status": "ok",
+      "raw_sha256": "739508e3aa294c066c3c70b73839b3bd61438e1e1ae0d4251fd2644645272a90",
+      "raw_bytes": 742
+    },
+    {
+      "title": "One More Saturday Night",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/One_More_Saturday_Night.txt",
+      "song_id": "26f875db946adb60",
+      "status": "ok",
+      "raw_sha256": "99418a6d76ee2552533fcbe721cf88ae28ea4d0fad1da4104624d7bcebf30945",
+      "raw_bytes": 1173
+    },
+    {
+      "title": "One Thing To Try",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/One_Thing_To_Try.txt",
+      "song_id": "46fd4353c1bd07f1",
+      "status": "ok",
+      "raw_sha256": "25812bda2ec5a8a6e956e859ae12f2614b9ee8049e3724ed592437730c4ed617",
+      "raw_bytes": 1970
+    },
+    {
+      "title": "Operator",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Operator.txt",
+      "song_id": "89e46023e4d21e98",
+      "status": "ok",
+      "raw_sha256": "cb645776b9eb7caa89b4d35d494b10c8f02a6d8e24a10fd4f786d6589d7f20be",
+      "raw_bytes": 869
+    },
+    {
+      "title": "Palm Sunday",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Palm_Sunday.txt",
+      "song_id": "46d11ba572120438",
+      "status": "ok",
+      "raw_sha256": "c522122dbea3d0f53b7eecd2c649b727abfa277eadf96541faff604bfb98ccbf",
+      "raw_bytes": 120
+    },
+    {
+      "title": "Passenger",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Passenger.txt",
+      "song_id": "2aa7fab00da97f52",
+      "status": "ok",
+      "raw_sha256": "c02b2e49476d4ef238363464344ee83ced7b8a657e48be559b897df2058697f2",
+      "raw_bytes": 696
+    },
+    {
+      "title": "Playin' In The Band",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Playin'_In_The_Band.txt",
+      "song_id": "d88857bbeef3ad7e",
+      "status": "ok",
+      "raw_sha256": "f38efa04d89381e15c8d7bd47333de99eca0a8df2b667bc746279380418f2269",
+      "raw_bytes": 852
+    },
+    {
+      "title": "Positively 4th Street",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Positively_4th_Street.txt",
+      "song_id": "b363b4a6bce5d2c5",
+      "status": "ok",
+      "raw_sha256": "2fe82c638af3bd2eff77579c36bac722f1654f10becd19a577b8c893cdc721db",
+      "raw_bytes": 1282
+    },
+    {
+      "title": "Pretty Peggy O",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Pretty_Peggy-O.txt",
+      "song_id": "cda90f204ad393ea",
+      "status": "ok",
+      "raw_sha256": "ca2b1b74f7d850f99dcb7b7e4ba008008693e52164e1223905e8a080d4b9df87",
+      "raw_bytes": 1318
+    },
+    {
+      "title": "Pride of Cucamonga",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Pride_of_Cucamonga.txt",
+      "song_id": "5777b75addb0ea3c",
+      "status": "ok",
+      "raw_sha256": "5558652a6f1aee6d500717b2301b35b9026bbd3976beabe178c474f91f468e1d",
+      "raw_bytes": 1129
+    },
+    {
+      "title": "Promised Land",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Promised_Land.txt",
+      "song_id": "2e06740d7ae69232",
+      "status": "ok",
+      "raw_sha256": "11f49e71a3a15a1e79ab1237b6d8fce7c7239ae74b3068789f96ee4c67e7db1f",
+      "raw_bytes": 1346
+    },
+    {
+      "title": "Promontory Rider",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Promontory_Rider.txt",
+      "song_id": "a0ef160e70805bc6",
+      "status": "ok",
+      "raw_sha256": "f32d9020254c23ffed1833ef0fb027fa4357f9476fa38466d1b4d06ef950edda",
+      "raw_bytes": 1665
+    },
+    {
+      "title": "Queen Of Santa Fe I",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Queen_Of_Santa_Fe_I.txt",
+      "song_id": "00f97e017cf2ef13",
+      "status": "ok",
+      "raw_sha256": "218b13a1dcb67f1358112b68617d7028b65b85ffd144fafe45c10eb72edeaa65",
+      "raw_bytes": 314
+    },
+    {
+      "title": "Queen Of Santa Fe II (Poor Michael Went Down)",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Queen_Of_Santa_Fe_II_(Poor_Michael_Went_Down).txt",
+      "song_id": "472d61b62ad9e5c7",
+      "status": "ok",
+      "raw_sha256": "9b5efa83c6459aa87221f51515059158ab19313afcc8dee19236913ed19d9d78",
+      "raw_bytes": 2258
+    },
+    {
+      "title": "Quin The Eskimo",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Quin_The_Eskimo.txt",
+      "song_id": "c93099c13dd8f760",
+      "status": "ok",
+      "raw_sha256": "f4eafbf77d2f0d472017c8d4f1357539d0e8f8cf6b9120ce5c789ff1935e6a46",
+      "raw_bytes": 1077
+    },
+    {
+      "title": "Rain",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Rain.txt",
+      "song_id": "bade5fa668657885",
+      "status": "ok",
+      "raw_sha256": "ca5b889a54d9ca9b428f1a25124ec323103e20746d0e3c9774f58991021d2e76",
+      "raw_bytes": 1034
+    },
+    {
+      "title": "The Race Is On",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Race_Is_On.txt",
+      "song_id": "77b29571423925ca",
+      "status": "ok",
+      "raw_sha256": "8070d4e396693b42127c6f4488139a53769d18f9b651c6db37a7c08e5da04c61",
+      "raw_bytes": 917
+    },
+    {
+      "title": "Ramble On Rose",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Ramble_On_Rose.txt",
+      "song_id": "1c81ee202e40f089",
+      "status": "ok",
+      "raw_sha256": "81a4da4820701a394d69601992f69bf11623bbd6405e8674375b5125128fc51f",
+      "raw_bytes": 1482
+    },
+    {
+      "title": "Revolution",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Revolution.txt",
+      "song_id": "9d303336b50c5661",
+      "status": "ok",
+      "raw_sha256": "1152d7952a8b7104b3b408c96ad09e466b2cfcda13c6878e2a5d740f50a0c54e",
+      "raw_bytes": 925
+    },
+    {
+      "title": "Revolutionary Hamstrung Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Revolutionary_Hamstrung_Blues.txt",
+      "song_id": "a2d2d2bd00c54896",
+      "status": "ok",
+      "raw_sha256": "d57beb90f4c061e7c066f1560301adedc80327e29b6b546c5022e2c75be99d48",
+      "raw_bytes": 1582
+    },
+    {
+      "title": "Rhapsody In Red",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Rhapsody_In_Red.txt",
+      "song_id": "0c0920bbc3574697",
+      "status": "ok",
+      "raw_sha256": "c4d9b0d2a16a4f73d653ea53b7be3e9fdacd9a561e1c5c1c397149df0b2f0064",
+      "raw_bytes": 638
+    },
+    {
+      "title": "Ripple",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Ripple.txt",
+      "song_id": "dcd953f307a99615",
+      "status": "ok",
+      "raw_sha256": "e5ef0cc35834162b6ba6b59b5fad894f5df31cae05ba1c776ec996128e837cd0",
+      "raw_bytes": 1033
+    },
+    {
+      "title": "Road Runner",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Road_Runner.txt",
+      "song_id": "584938a6b924737d",
+      "status": "ok",
+      "raw_sha256": "4ebfbc1be6c9985d4d227f21ca87d5bfbe1de33ff6df714c989a7900e1240106",
+      "raw_bytes": 1105
+    },
+    {
+      "title": "Rockin' Pneumonia",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Rockin'_Pneumonia.txt",
+      "song_id": "52c9beaeb39ada41",
+      "status": "ok",
+      "raw_sha256": "6a9633c2ba57a8ec5e63e93645e50b847a52f06bb9c0772251e986d93f78460e",
+      "raw_bytes": 443
+    },
+    {
+      "title": "Rosalie McFall",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Rosalie_McFall.txt",
+      "song_id": "b7e50f9d82b553df",
+      "status": "ok",
+      "raw_sha256": "045c6202804fee93b01903cbc5f607b8a3af377ed51048307776fe27a6cb4d30",
+      "raw_bytes": 582
+    },
+    {
+      "title": "Rosemary",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Rosemary.txt",
+      "song_id": "31ab420d2d972de5",
+      "status": "ok",
+      "raw_sha256": "8128f42bf150b2388be2e670f3e8bdccfbf6d16a3c5bcf59e3114a3c01861433",
+      "raw_bytes": 350
+    },
+    {
+      "title": "Row Jimmy",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Row_Jimmy.txt",
+      "song_id": "a8c76ce46af4e8eb",
+      "status": "ok",
+      "raw_sha256": "a84e4a20ac73dc69e9105ad32d034b0da7a2acd81bed48d8f0e52a336e0adc8f",
+      "raw_bytes": 1158
+    },
+    {
+      "title": "Rubin and Cherise",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Rubin_and_Cherise.txt",
+      "song_id": "50cd4a468b140538",
+      "status": "ok",
+      "raw_sha256": "e6cc6c87ee624617ece5976cc4d28cd9de696c13c2467df7763adec7e672a966",
+      "raw_bytes": 1844
+    },
+    {
+      "title": "Run, Rudolph Run",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Run,_Rudolph_Run.txt",
+      "song_id": "97fbe4484b40d31c",
+      "status": "ok",
+      "raw_sha256": "68ee7193988a883151f54ce9d42970b1ea5b6cd121b970a62a209961c3f38d7e",
+      "raw_bytes": 861
+    },
+    {
+      "title": "Run for the Roses",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Run_for_the_Roses.txt",
+      "song_id": "467f07c64ea9f32d",
+      "status": "ok",
+      "raw_sha256": "5e9a08a369f178db45e28f0b98d8f576c49e2a5a45a99e8efdd931ec752d5286",
+      "raw_bytes": 1160
+    },
+    {
+      "title": "Saint Stephen",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Saint_Stephen.txt",
+      "song_id": "4abd3aa24178f609",
+      "status": "ok",
+      "raw_sha256": "963934c077fdbb6bbc899e7f040fd0d380699bcc7c44add8083a53893ec130c5",
+      "raw_bytes": 1231
+    },
+    {
+      "title": "Saint of Circumstance",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Saint_of_Circumstance.txt",
+      "song_id": "3b5b73a0556a2c79",
+      "status": "ok",
+      "raw_sha256": "ecc9c14077d08a496211be9c30be72b5735d6e66552003c28b2334dedf508024",
+      "raw_bytes": 1287
+    },
+    {
+      "title": "The Same Thing",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Same_Thing.txt",
+      "song_id": "2eb59bb20c383f5b",
+      "status": "ok",
+      "raw_sha256": "ee79c9227ea5b10c6784e5c85fd1b467ffd3bb87a07d2c242c3b8a1c553af38e",
+      "raw_bytes": 747
+    },
+    {
+      "title": "Samson and Delilah",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Samson_and_Delilah.txt",
+      "song_id": "1dfe1b63dde12eb8",
+      "status": "ok",
+      "raw_sha256": "09126ef799200ffaa8184c44ed995325ace9e9e35c15516c788e3165a99c5a0b",
+      "raw_bytes": 1404
+    },
+    {
+      "title": "Satisfaction",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Satisfaction.txt",
+      "song_id": "7d280e0adcccc9b9",
+      "status": "ok",
+      "raw_sha256": "88a59a5934078c9750416334100a8e5f8f14ef4a99a85597e6c0bb4e45a5c77e",
+      "raw_bytes": 647
+    },
+    {
+      "title": "Save the Whales",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Save_the_Whales.txt",
+      "song_id": "3b41a322560bccae",
+      "status": "ok",
+      "raw_sha256": "3b30f149e8ab1df6423a0b39afd3399054b42b175bed13952f95ff5bf68a0274",
+      "raw_bytes": 2038
+    },
+    {
+      "title": "Sawmill",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Sawmill.txt",
+      "song_id": "84829c919856b5b2",
+      "status": "ok",
+      "raw_sha256": "c3eeb0428af02cbde97793cd9787bee162af409d4d5d7d974bb7bc3ca29686e4",
+      "raw_bytes": 938
+    },
+    {
+      "title": "Scarlet Begonias",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Scarlet_Begonias.txt",
+      "song_id": "4d6dca63c7e56789",
+      "status": "ok",
+      "raw_sha256": "3b7b2f50453a21e517a18081c6c761ca928c61058988340f5a753053414ef238",
+      "raw_bytes": 1222
+    },
+    {
+      "title": "Searchin'",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Searchin'.txt",
+      "song_id": "1f53fc78af90c949",
+      "status": "ok",
+      "raw_sha256": "236790bffabacd63fe241ebcbe62063ad1918abd9fc346fa596c0380918f598e",
+      "raw_bytes": 916
+    },
+    {
+      "title": "Shakedown Street",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Shakedown_Street.txt",
+      "song_id": "4f3f9ae80559aab6",
+      "status": "ok",
+      "raw_sha256": "1d0ea4261b4a8d4b3ecccb2ac129bb79ac11dcf693938a62dc42437308ee19f9",
+      "raw_bytes": 1869
+    },
+    {
+      "title": "She's Mine",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/She's_Mine.txt",
+      "song_id": "dbba58dd33a0b1ec",
+      "status": "ok",
+      "raw_sha256": "50af64ae74cfaaeee5eaa30f20cb06140968cdba387d2d2b0a1f7d0640b13e3e",
+      "raw_bytes": 410
+    },
+    {
+      "title": "She Belongs To Me",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/She_Belongs_To_Me.txt",
+      "song_id": "99a99cce6332f88e",
+      "status": "ok",
+      "raw_sha256": "35abe15d248a9368d64f758fecba8f09378ba51cc7c6fc711de06166ea3d90c2",
+      "raw_bytes": 801
+    },
+    {
+      "title": "Ship of Fools",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Ship_of_Fools.txt",
+      "song_id": "0046aebc05bf1d06",
+      "status": "ok",
+      "raw_sha256": "7a3a8a7ba3d65aa31a86d8c127fb507b1732bcf8e537a7852a961511054e65f4",
+      "raw_bytes": 1318
+    },
+    {
+      "title": "Silver Threads and Golden Needles",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Silver_Threads_and_Golden_Needles.txt",
+      "song_id": "b8379624c82eed0b",
+      "status": "ok",
+      "raw_sha256": "756dd0d9c696ba1f9bfdacdddc8f98633917fdc8dcc03c46f6786fa4e89a63a0",
+      "raw_bytes": 537
+    },
+    {
+      "title": "Simple Twist Of Fate",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Simple_Twist_Of_Fate.txt",
+      "song_id": "5e8f8f422451060d",
+      "status": "ok",
+      "raw_sha256": "cb20846bced0a9caf07590edf49e3371a1a0c88a9b7168ffacc81c6277d2d086",
+      "raw_bytes": 1356
+    },
+    {
+      "title": "Sing Me Back Home",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Sing_Me_Back_Home.txt",
+      "song_id": "c4e10199293c5224",
+      "status": "ok",
+      "raw_sha256": "9239b97ca9f62181a01375a4a504a8505fb8d7872b4f614131fd9707af374a5d",
+      "raw_bytes": 724
+    },
+    {
+      "title": "Sitting In Limbo",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Sitting_In_Limbo.txt",
+      "song_id": "42ee9aecc72ff398",
+      "status": "ok",
+      "raw_sha256": "01bdad3cacdf51e6e90d87683b86e044043c03050dc1ded9baa2c7465f02e4f9",
+      "raw_bytes": 816
+    },
+    {
+      "title": "Sitting on Top of the World",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Sitting_on_Top_of_the_World.txt",
+      "song_id": "519f2d3177f07c56",
+      "status": "ok",
+      "raw_sha256": "cd0c36af060390cc324e00ca7c5d8b1861acfac7ffec3df04b0f1a9b0139b2f1",
+      "raw_bytes": 665
+    },
+    {
+      "title": "Smokestack Lightnin'",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Smokestack_Lightnin'.txt",
+      "song_id": "3d35f0b08873d3fd",
+      "status": "ok",
+      "raw_sha256": "a0f66e3e4a9e94d67b1920abedfd3ecfcda108f6ca42cd4cb87b725b90b1dd92",
+      "raw_bytes": 410
+    },
+    {
+      "title": "So Far From Me",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/So_Far_From_Me.txt",
+      "song_id": "644167f3a1428706",
+      "status": "ok",
+      "raw_sha256": "e0cc4e8d5b172f07d67a4651fd269d0c7964d4205bc8e80acef39cb253fe9dc7",
+      "raw_bytes": 1399
+    },
+    {
+      "title": "Stagger Lee",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Stagger_Lee.txt",
+      "song_id": "2c040b854c24818d",
+      "status": "ok",
+      "raw_sha256": "690cf1ffb7e420a93be10060300745340e7e902f1ec55d816d546087d4fd5673",
+      "raw_bytes": 1361
+    },
+    {
+      "title": "Stealin'",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Stealin'.txt",
+      "song_id": "19723e2d7e3dca75",
+      "status": "ok",
+      "raw_sha256": "406f87c948d17452f1d5358d187c610c31685e03c0c7a1a8c8447d96195cb4d4",
+      "raw_bytes": 401
+    },
+    {
+      "title": "Stella Blue",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Stella_Blue.txt",
+      "song_id": "8e22713e5f5d783e",
+      "status": "ok",
+      "raw_sha256": "fda93c3a7a716244ed27aadb152fb9d71c5933c596520e3ceffb4939c2ce10cb",
+      "raw_bytes": 836
+    },
+    {
+      "title": "Sugar Magnolia",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Sugar_Magnolia.txt",
+      "song_id": "f30aa1363630e8c6",
+      "status": "ok",
+      "raw_sha256": "be7d87967a1871f84ecc1cbad46b490636d431599fab89d2f5a71a8014217165",
+      "raw_bytes": 1463
+    },
+    {
+      "title": "Sugaree",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Sugaree.txt",
+      "song_id": "026eab83019a5721",
+      "status": "ok",
+      "raw_sha256": "b3218f4e96d0d159cf104b7179cb818d46cd70679d413224a52c22f56c3234b9",
+      "raw_bytes": 1471
+    },
+    {
+      "title": "Sunrise",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Sunrise.txt",
+      "song_id": "ea3e0f39f8102e86",
+      "status": "ok",
+      "raw_sha256": "4744ee78a2543b89fd601bc6f8b018a8832ae2835a502f4aa98fb215cf76df17",
+      "raw_bytes": 594
+    },
+    {
+      "title": "Supplication",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Supplication.txt",
+      "song_id": "5dfcc21b45fb811f",
+      "status": "ok",
+      "raw_sha256": "9afee5ac75f6e7c9ae363cde87c3fcd47012e4f20a53c30074fd0dd404fd719c",
+      "raw_bytes": 587
+    },
+    {
+      "title": "Swing Low Sweet Chariot",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Swing_Low_Sweet_Chariot.txt",
+      "song_id": "3ef6f8717ded3def",
+      "status": "ok",
+      "raw_sha256": "cb1c4b31a6c353306bbad829bee7e41f13da9f40422da6c2f0b75f7fa7e3e1ab",
+      "raw_bytes": 552
+    },
+    {
+      "title": "Tangled Up In Blue",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Tangled_Up_In_Blue.txt",
+      "song_id": "45f8f933c964aea3",
+      "status": "ok",
+      "raw_sha256": "a0cfb33f62590310d0f7b270c0bec3f67d6737fa534033d8a000a7181ceff203",
+      "raw_bytes": 2847
+    },
+    {
+      "title": "Tell Mama",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Tell_Mama.txt",
+      "song_id": "a580a5c42134ca75",
+      "status": "ok",
+      "raw_sha256": "bad1bd4c85435623442dbbe174b4750f85601a82da5ad77d49e435b50f45cf0a",
+      "raw_bytes": 739
+    },
+    {
+      "title": "Tennessee Jed",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Tennessee_Jed.txt",
+      "song_id": "8f304e53ef8598c8",
+      "status": "ok",
+      "raw_sha256": "09864d23cfede12561d664e7747470814a9de4f8db4707c5b4d104c15df87e1c",
+      "raw_bytes": 1235
+    },
+    {
+      "title": "Terrapin Station   Lady With a Fan",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Terrapin_Station_-_Lady_With_a_Fan.txt",
+      "song_id": "3292b2f6e8cfcdb8",
+      "status": "ok",
+      "raw_sha256": "200092f409c48739d07c6b98c2749990f102e6d20e83e5912c0acd50d6d0c045",
+      "raw_bytes": 2339
+    },
+    {
+      "title": "That's All Right, Mama",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/That's_All_Right,_Mama.txt",
+      "song_id": "d0dc509396594fba",
+      "status": "ok",
+      "raw_sha256": "d1aaf0f507bbf0c62e1ff53168b1cdd85dbe808a75c7812aab78f5976a0a99bb",
+      "raw_bytes": 436
+    },
+    {
+      "title": "That's It For The Other One",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/That's_It_For_The_Other_One.txt",
+      "song_id": "0c81757dc1891823",
+      "status": "ok",
+      "raw_sha256": "21100ff9e7d2a347f5fe8cbf95efba41ec8002133d63dc83e7efa8947d01c134",
+      "raw_bytes": 1522
+    },
+    {
+      "title": "They Love Each Other",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/They_Love_Each_Other.txt",
+      "song_id": "12e5a9b661d35996",
+      "status": "ok",
+      "raw_sha256": "60d4ee49c91d55597b5ab04e74df59fbb76e4f6f8b38ae5bad361d2540180130",
+      "raw_bytes": 1290
+    },
+    {
+      "title": "This Time Forever",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/This_Time_Forever.txt",
+      "song_id": "b6bb57361cad602f",
+      "status": "ok",
+      "raw_sha256": "40e8277884de5a8642cf709bc54a20dd22295424ac526670b42762ec56686936",
+      "raw_bytes": 604
+    },
+    {
+      "title": "Throwing Stones",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Throwing_Stones.txt",
+      "song_id": "d7d774fbee176fd4",
+      "status": "ok",
+      "raw_sha256": "59db2112a109e5f19cb20005eb879ea23fc80f1df64b7127450275b1f0777217",
+      "raw_bytes": 2475
+    },
+    {
+      "title": "Till The Morning Comes",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Till_The_Morning_Comes.txt",
+      "song_id": "51f117ba30e5cc45",
+      "status": "ok",
+      "raw_sha256": "4f8716d38ec86c2e1bb19ec5c8a546e629b71f15c23e079db7e15e1c27693c49",
+      "raw_bytes": 1080
+    },
+    {
+      "title": "To Lay Me Down",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/To_Lay_Me_Down.txt",
+      "song_id": "42ed301e2fe63a62",
+      "status": "ok",
+      "raw_sha256": "3e664f486774b24540d9ae340b1542a20c500863dc1c5cec6638b4f7b28cf546",
+      "raw_bytes": 748
+    },
+    {
+      "title": "Tom Dooley",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Tom_Dooley.txt",
+      "song_id": "9c73ec81c8e31a6b",
+      "status": "ok",
+      "raw_sha256": "fa3a6debb9c85eb25b9c3b6046dc13ff081293c3003d0578174107797b67b0ad",
+      "raw_bytes": 633
+    },
+    {
+      "title": "Tom Thumb Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Tom_Thumb_Blues.txt",
+      "song_id": "9d148684ca1532d7",
+      "status": "ok",
+      "raw_sha256": "8d300aa440e0a3f5dc6caf93d12e0cce2e0f317765ecd4bae494e859d717cdec",
+      "raw_bytes": 1538
+    },
+    {
+      "title": "Tomorrow Is Forever",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Tomorrow_Is_Forever.txt",
+      "song_id": "0a7c19e0a4340ecf",
+      "status": "ok",
+      "raw_sha256": "5c3d84d726aa7680821a46d43c091d85f59538c2ac6981d41007f2b2d5c705fc",
+      "raw_bytes": 620
+    },
+    {
+      "title": "Tore Up Over You",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Tore_Up_Over_You.txt",
+      "song_id": "1ad3482939c4a880",
+      "status": "ok",
+      "raw_sha256": "7a502e4fc5a0656bd85a3f321b8e0b73bed830d2d4265903a97e0eae23ec6c99",
+      "raw_bytes": 854
+    },
+    {
+      "title": "Touch of Grey",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Touch_of_Grey.txt",
+      "song_id": "65fb90ec67da31b5",
+      "status": "ok",
+      "raw_sha256": "adcc951e86117610ea1c5d0165437d02d99d0f585b39c69c219180ba1f8f9e2c",
+      "raw_bytes": 1320
+    },
+    {
+      "title": "Truckin'",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Truckin'.txt",
+      "song_id": "505e212f4d02b0dc",
+      "status": "ok",
+      "raw_sha256": "fa980e8885e21634de6f4268f687110fdd690f62c9bbef0afb83406907c963e8",
+      "raw_bytes": 2118
+    },
+    {
+      "title": "Turn On Your Love Light",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Turn_On_Your_Love_Light.txt",
+      "song_id": "280025003485bb63",
+      "status": "ok",
+      "raw_sha256": "2d4ec32a4363faf6d930e703ecbc84794ce8cb4a9723531e441aaba19bf2fcf6",
+      "raw_bytes": 970
+    },
+    {
+      "title": "Two Souls in Communion",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Two_Souls_in_Communion.txt",
+      "song_id": "7feca8b47deee1a9",
+      "status": "ok",
+      "raw_sha256": "f4f8507b4de84268cb0d2cf8d30c1ac9f0f33302f377dfa17fb54de290757804",
+      "raw_bytes": 1307
+    },
+    {
+      "title": "Two Women",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Two_Women.txt",
+      "song_id": "ee808dc52e3f9a17",
+      "status": "ok",
+      "raw_sha256": "c02a5445cc709f1dc3e350a2bfd1c9057ec40786070b3e011e012109b2f32d36",
+      "raw_bytes": 522
+    },
+    {
+      "title": "U.S. Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/U.S._Blues.txt",
+      "song_id": "40d806a1748fc817",
+      "status": "ok",
+      "raw_sha256": "6fab14031d88ce4062cd4c189189c7db4a3bbf80b56681632100d63175d55bdf",
+      "raw_bytes": 903
+    },
+    {
+      "title": "Unbroken Chain",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Unbroken_Chain.txt",
+      "song_id": "e7e199f34ee2f5b4",
+      "status": "ok",
+      "raw_sha256": "33501e5d3c84d51c0d1155d77e99e8d7e5621c5a8cb42eb4d3154429c70a2c24",
+      "raw_bytes": 894
+    },
+    {
+      "title": "Uncle John's Band",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Uncle_John's_Band.txt",
+      "song_id": "4b3fc334f263f0f3",
+      "status": "ok",
+      "raw_sha256": "e9efae8b8b82ffab6fc27e14f30d5a53037ee302c24a7e86e6716ffd001867c4",
+      "raw_bytes": 1396
+    },
+    {
+      "title": "Valerie",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Valerie.txt",
+      "song_id": "26a275e6d1274762",
+      "status": "ok",
+      "raw_sha256": "655950e0575b27c7b2778b22130e1b8acdabffe432d60f02bf577cae3abc12cd",
+      "raw_bytes": 1040
+    },
+    {
+      "title": "Viola Lee Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Viola_Lee_Blues.txt",
+      "song_id": "2389017d8b5f1fca",
+      "status": "ok",
+      "raw_sha256": "75be73a492863879361881d8ac34ac368305c4c78c1b421dd489806326a1fd8f",
+      "raw_bytes": 501
+    },
+    {
+      "title": "Visions of Johanna",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Visions_of_Johanna.txt",
+      "song_id": "8d06df116dc20d4d",
+      "status": "ok",
+      "raw_sha256": "ef742cf23c79967f0ca737487c8dbdc31c8f639251ce41f5ea4e0585a3d7147e",
+      "raw_bytes": 2521
+    },
+    {
+      "title": "Wake Up Little Susie",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Wake_Up_Little_Susie.txt",
+      "song_id": "c0a07523b77d0d0d",
+      "status": "ok",
+      "raw_sha256": "6f53eb2f06b76de882f671936db55a1dc4225f4881d32cd141ecb6632e129388",
+      "raw_bytes": 771
+    },
+    {
+      "title": "Walk in the Sun",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Walk_in_the_Sun.txt",
+      "song_id": "d8d0e0fb3863c10d",
+      "status": "ok",
+      "raw_sha256": "04d780e2771ab89f342193c494a5ab3c9babffcf2558fd93a9a8212631f36445",
+      "raw_bytes": 719
+    },
+    {
+      "title": "Walk in the Sunshine",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Walk_in_the_Sunshine.txt",
+      "song_id": "5286f81078242195",
+      "status": "ok",
+      "raw_sha256": "80d64f42a4814091212057694fe7b8bd3d36df72250fd4a25fe500d166b99d8a",
+      "raw_bytes": 1196
+    },
+    {
+      "title": "Walking Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Walking_Blues.txt",
+      "song_id": "f573fba3e6e7ff48",
+      "status": "ok",
+      "raw_sha256": "52668010c4b590c82e8c60b31215efc2c869cfcb12a2c51e48a44cdd0450972f",
+      "raw_bytes": 828
+    },
+    {
+      "title": "Walking the Dog",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Walking_the_Dog.txt",
+      "song_id": "0240316c18433f68",
+      "status": "ok",
+      "raw_sha256": "9a98b3e400465a8e962518f294b8b4b459b02116fc11755b764d5ff94bf5d828",
+      "raw_bytes": 471
+    },
+    {
+      "title": "Wang Dang Doodle",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Wang_Dang_Doodle.txt",
+      "song_id": "6adfac1350402158",
+      "status": "ok",
+      "raw_sha256": "505fa737e1035f58cf1b2f58b63dcb2edae9d7740719fd3f8191be8069192534",
+      "raw_bytes": 850
+    },
+    {
+      "title": "Wave That Flag",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Wave_That_Flag.txt",
+      "song_id": "c97c8cfdc53a7004",
+      "status": "ok",
+      "raw_sha256": "4d27f5a725ca127d66e48d386a8f5300cccc596302910b8f149d003d08004ccf",
+      "raw_bytes": 1127
+    },
+    {
+      "title": "Weather Report Suite (Part I)",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Weather_Report_Suite_(Part_I).txt",
+      "song_id": "57f0d3e69f2180c0",
+      "status": "ok",
+      "raw_sha256": "8c627cadd14b2907d5d56c9cacb0c9408d6af093a6b4efcfcc8aba478c56b6a1",
+      "raw_bytes": 981
+    },
+    {
+      "title": "Weather Report Suite (Part II)   Let It Grow",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Weather_Report_Suite_(Part_II)_-_Let_It_Grow.txt",
+      "song_id": "13e22a7b71612fc5",
+      "status": "ok",
+      "raw_sha256": "5c66ecb26f24aed0e71f4cd7165dd8c263cac4785138623232be1c85a83fb048",
+      "raw_bytes": 1307
+    },
+    {
+      "title": "Werewolves of London",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Werewolves_of_London.txt",
+      "song_id": "421f496a3b439981",
+      "status": "ok",
+      "raw_sha256": "7dc02583f94be9fec5851e8ad90c38321f39d9bb09868d6e82435ef74eed9da8",
+      "raw_bytes": 869
+    },
+    {
+      "title": "West L.A. Fadeaway",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/West_L.A._Fadeaway.txt",
+      "song_id": "6f98ca35a1426c5b",
+      "status": "ok",
+      "raw_sha256": "14c24d2873dfec9ca15bdd35bf4603783ecce120f3753528dfeba524ad86af3d",
+      "raw_bytes": 1038
+    },
+    {
+      "title": "Wharf Rat",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Wharf_Rat.txt",
+      "song_id": "03b277465ae67348",
+      "status": "ok",
+      "raw_sha256": "5f0f1e33c94113d0dc0bc8f84b1308414130cbfa13ab57d847384e592ce1d623",
+      "raw_bytes": 1142
+    },
+    {
+      "title": "What's Become of the Baby",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/What's_Become_of_the_Baby.txt",
+      "song_id": "4f91bc5955090eb5",
+      "status": "ok",
+      "raw_sha256": "6bb6b3b9a347e209224c0f9c20215fd409e7936f432283ecbabe935fd57be9d2",
+      "raw_bytes": 1146
+    },
+    {
+      "title": "What Will You Raise",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/What_Will_You_Raise.txt",
+      "song_id": "394f905d1e5895a5",
+      "status": "ok",
+      "raw_sha256": "96601a83f3e9e0c5e47e9cd443ee7040acd7bbc4ad1a533d8ec843c5b69e0f11",
+      "raw_bytes": 203
+    },
+    {
+      "title": "The Wheel",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Wheel.txt",
+      "song_id": "e659416ac8b5464c",
+      "status": "ok",
+      "raw_sha256": "975d6c44235dc223859e69ac3d589e63492fa4914f36bc71e5f9ea46aa1c9596",
+      "raw_bytes": 1200
+    },
+    {
+      "title": "The Weight",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/The_Weight.txt",
+      "song_id": "a11c19ab79a9d462",
+      "status": "ok",
+      "raw_sha256": "04f292b3c5e1d9e2b160c14570723166bbc8fae9fbeed971c962e72db6d5a755",
+      "raw_bytes": 1237
+    },
+    {
+      "title": "When I Paint My Masterpiece",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/When_I_Paint_My_Masterpiece.txt",
+      "song_id": "e135aa21dd3ae52c",
+      "status": "ok",
+      "raw_sha256": "91027f7197cdb1125223bb897b85f73b6cffcca80fccafcf8ff30d5df82bc68a",
+      "raw_bytes": 1164
+    },
+    {
+      "title": "When Push Comes to Shove",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/When_Push_Comes_to_Shove.txt",
+      "song_id": "389f847fb0b4224d",
+      "status": "ok",
+      "raw_sha256": "7509f2a871acc0045698dc2b3ea3ec4a931dbee9bfb8ef4f4d3c69a0dc0f114a",
+      "raw_bytes": 1268
+    },
+    {
+      "title": "Who Do You Love",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Who_Do_You_Love.txt",
+      "song_id": "864125c0b0d2c00c",
+      "status": "ok",
+      "raw_sha256": "8f1cc5dba11e3f224a47ad9ebfa1749bf4528da2fb811f92a438fb419db215cf",
+      "raw_bytes": 208
+    },
+    {
+      "title": "Why Don't We Do It In The Road",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Why_Don't_We_Do_It_In_The_Road.txt",
+      "song_id": "d36f319c2be0a0b3",
+      "status": "ok",
+      "raw_sha256": "e8c11844da5e2039eda5b95442ce9f354a03ceef6e7955e9b20c8e2cb3b7d50c",
+      "raw_bytes": 188
+    },
+    {
+      "title": "Willie and the Hand Jive",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Willie_and_the_Hand_Jive.txt",
+      "song_id": "649efc959448ac44",
+      "status": "ok",
+      "raw_sha256": "083bd31aecb4819b2c01ecf2e5e56d199d027d8321d48dd87348698a486b3074",
+      "raw_bytes": 1043
+    },
+    {
+      "title": "Wining Boy Blues",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Wining_Boy_Blues.txt",
+      "song_id": "e6dce23245b80c68",
+      "status": "ok",
+      "raw_sha256": "7c600db6f7209bd1e38966789a4f36828e49e19afb7f423dbc6af27b30f7da41",
+      "raw_bytes": 512
+    },
+    {
+      "title": "Yellow Moon",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Yellow_Moon.txt",
+      "song_id": "b3844cf1d3c6d210",
+      "status": "ok",
+      "raw_sha256": "01747ccd4b061d9744ebe9a9a2b563052fbffc8e0ef41e00388008f09cbf9a64",
+      "raw_bytes": 1778
+    },
+    {
+      "title": "You Ain't Woman Enough To Take My Man",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/You_Ain't_Woman_Enough_To_Take_My_Man.txt",
+      "song_id": "e62009b2a5333be0",
+      "status": "ok",
+      "raw_sha256": "c4b5ce0561b8f8b0c81a5ee0d4f0a640797b27278b993bc193674a999204582a",
+      "raw_bytes": 484
+    },
+    {
+      "title": "You Don't Have To Ask",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/You_Don't_Have_To_Ask.txt",
+      "song_id": "20e8cd47cb33953a",
+      "status": "ok",
+      "raw_sha256": "fc1086f0a41eb3f9353a56806537f99e5906fea7f345cef124c7d6b7bb20fce4",
+      "raw_bytes": 824
+    },
+    {
+      "title": "You Win Again",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/You_Win_Again.txt",
+      "song_id": "b44d84876b5f2940",
+      "status": "ok",
+      "raw_sha256": "8d49f3aad15a255f26f7f7e8634a6ecb44e04e9b9be0dcf80c1339b60600aba4",
+      "raw_bytes": 342
+    },
+    {
+      "title": "Youngblood",
+      "source_url": "https://www.cs.cmu.edu/~mleone/gdead/dead-lyrics/Youngblood.txt",
+      "song_id": "1f76e97634e14bb2",
+      "status": "ok",
+      "raw_sha256": "ba6eb76d79ef5112e5ad81ccae47e033b4bfe85fb8aa4e7a01287888bb0d0589",
+      "raw_bytes": 629
+    }
+  ]
+}

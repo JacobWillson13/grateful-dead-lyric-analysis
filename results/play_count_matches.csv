@@ -1,0 +1,141 @@
+setlist_title,times_played,play_rank,song_id,matched,top_50,lyrics_title
+Me and My Uncle,638,1,6d0aed9f229f7c69,True,True,Me and My Uncle
+Playing in the Band,635,2,d88857bbeef3ad7e,True,True,Playin' In The Band
+Sugar Magnolia,604,3,f30aa1363630e8c6,True,True,Sugar Magnolia
+China Cat Sunflower,574,4,534964264bd7ec7c,True,True,China Cat Sunflower
+I Know You Rider,573,5,67e15443de7f4da9,True,True,I Know You Rider
+Not Fade Away,564,6,34e4af7561143ce7,True,True,Not Fade Away
+Truckin',533,7,505e212f4d02b0dc,True,True,Truckin'
+The Other One,497,8,0c81757dc1891823,True,True,That's It For The Other One
+Jack Straw,477,9,e678ad2d85f6424d,True,True,Jack Straw
+Good Lovin',449,10,35fe1cec757a62c2,True,True,Good Lovin'
+Minglewood Blues,446,11,09a94c155117fdc7,True,True,All New Minglewood Blues
+Mexicali Blues,441,12,535811093a819241,True,True,Mexicali Blues
+Tennessee Jed,435,13,8f304e53ef8598c8,True,True,Tennessee Jed
+Promised Land,432,14,2e06740d7ae69232,True,True,Promised Land
+Deal,429,15,43d939cd78257a79,True,True,Deal
+Around and Around,419,16,5092906aa5798d29,True,True,Around and Around
+Looks Like Rain,415,17,0ba5ba0404f1ca4e,True,True,Looks Like Rain
+Bertha,401,18,d31c476b012d9814,True,True,Bertha
+Big River,400,19,cc0597ff49238a57,True,True,Big River
+Wharf Rat,399,20,03b277465ae67348,True,True,Wharf Rat
+El Paso,396,21,67844972fdb1877d,True,True,El Paso
+Estimated Prophet,390,22,226e316c17a5bd9d,True,True,Estimated Prophet
+Turn On Your Love Light,384,23,280025003485bb63,True,True,Turn On Your Love Light
+Eyes of the World,382,24,1d25bb4cc8baaf9f,True,True,Eyes Of The World
+Samson and Delilah,365,25,1dfe1b63dde12eb8,True,True,Samson and Delilah
+Sugaree,364,26,026eab83019a5721,True,True,Sugaree
+Black Peter,358,27,601138410185686f,True,True,Black Peter
+Loser,353,28,c625f1b2ce5c3511,True,True,Loser
+Uncle John's Band,351,29,4b3fc334f263f0f3,True,True,Uncle John's Band
+Brown-Eyed Women,346,30,c88cfa33adf8e3ae,True,True,Brown Eyed Women
+Beat It on Down the Line,342,31,3af8001ef3945723,True,True,Beat it on Down The Line
+Cassidy,339,32,4d0b65568f0d3012,True,True,Cassidy
+One More Saturday Night,338,33,26f875db946adb60,True,True,One More Saturday Night
+He's Gone,330,34,8571714b127069d9,True,True,He's Gone
+Stella Blue,329,35,8e22713e5f5d783e,True,True,Stella Blue
+Casey Jones,328,36,37ca4e561ba86fe8,True,True,Casey Jones
+U.S. Blues,324,37,40d806a1748fc817,True,True,U.S. Blues
+Don't Ease Me In,323,38,eb754884d1d05910,True,True,Don't Ease Me In
+Ramble On Rose,318,39,1c81ee202e40f089,True,True,Ramble On Rose
+Scarlet Begonias,317,40,4d6dca63c7e56789,True,True,Scarlet Begonias
+Friend of the Devil,312,41,34d45114190b280f,True,True,Friend of the Devil
+Mama Tried,306,42,8ae542977ef24b18,True,True,Mama Tried
+Going Down the Road Feeling Bad,305,43,49bb0fd7a21b7b0d,True,True,Goin' Down The Road Feelin' Bad
+Terrapin Station,302,44,3292b2f6e8cfcdb8,True,True,Terrapin Station   Lady With a Fan
+Bird Song,301,45,3449552184d16631,True,True,Bird Song
+Morning Dew,287,46,99a7b6b54ce33773,True,True,Morning Dew
+Greatest Story Ever Told,283,47,2e992cc25a23e87d,True,True,Greatest Story Ever Told
+Johnny B. Goode,283,47,3ec8170991d79c97,True,True,Johnny B. Goode
+Candyman,282,49,1e98d80d2b3b4311,True,True,Candyman
+The Little Red Rooster,275,50,9e7b03062a7f5d25,True,True,Little Red Rooster
+Row Jimmy,274,51,a8c76ce46af4e8eb,True,False,Row Jimmy
+Althea,273,52,4f0f19108ad84d33,True,False,Althea
+I Need a Miracle,272,53,987553c6001ba9cd,True,False,I Need A Miracle
+Throwing Stones,267,54,d7d774fbee176fd4,True,False,Throwing Stones
+Peggy-O,265,55,cda90f204ad393ea,True,False,Pretty Peggy O
+Cold Rain and Snow,260,56,6f2ec2431d16fc60,True,False,Cold Rain and Snow
+The Wheel,259,57,e659416ac8b5464c,True,False,The Wheel
+Dark Star,258,58,9cd76e7b2dd968bf,True,False,Dark Star
+Fire on the Mountain,254,59,a6c86b1d0f364f69,True,False,Fire On The Mountain
+Cumberland Blues,239,60,9ae866a4de6d02df,True,False,Cumberland Blues
+Mississippi Half-Step Uptown Toodeloo,236,61,8cd02462f66b1a3d,True,False,Mississippi Halfstep Uptown Toodeloo
+The Music Never Stopped,235,62,f9b8d3f2fce9902e,True,False,The Music Never Stopped
+Let It Grow,233,63,13e22a7b71612fc5,True,False,Weather Report Suite (Part II)   Let It Grow
+Dire Wolf,231,64,187e6915463d261f,True,False,Dire Wolf
+They Love Each Other,226,65,12e5a9b661d35996,True,False,They Love Each Other
+Ship of Fools,225,66,0046aebc05bf1d06,True,False,Ship of Fools
+Saint of Circumstance,224,67,3b5b73a0556a2c79,True,False,Saint of Circumstance
+Franklin's Tower,222,68,d5dc938f305f4218,True,False,Franklin's Tower
+Brokedown Palace,221,69,386df10f31b177c4,True,False,Brokedown Palace
+Hell in a Bucket,217,70,8ee5a194f5179d60,True,False,Hell in a Bucket
+Touch of Grey,210,71,65fb90ec67da31b5,True,False,Touch of Grey
+Feel Like a Stranger,208,72,fd732ed8f1b43ce4,True,False,Feel Like A Stranger
+"Man Smart, Woman Smarter",199,73,d53c5b9431e75853,True,False,"Man Smart, Women Smarter"
+St. Stephen,193,74,4abd3aa24178f609,True,False,Saint Stephen
+Iko Iko,185,75,db09c19a8dbbede6,True,False,Aiko Aiko
+Big Railroad Blues,176,76,de2a6af5ac83f3f1,True,False,Big Railroad Blues
+Shakedown Street,164,77,4f3f9ae80559aab6,True,False,Shakedown Street
+Box of Rain,163,78,33778f69897a4a6b,True,False,Box of Rain
+It's All Over Now,161,79,c45fc46b5586ae11,True,False,All Over Now
+It Must Have Been the Roses,159,80,157432f25429bbc1,True,False,It Must Have Been The Roses
+Black-Throated Wind,158,81,1278a9ff59d3d417,True,False,Black Throated Wind
+"It's All Over Now, Baby Blue",151,82,f1124bf556a48d36,True,False,It's All Over Now Baby Blue
+Lost Sailor,146,83,4bfa8ebf185784d3,True,False,Lost Sailor
+Stagger Lee,146,83,2c040b854c24818d,True,False,Stagger Lee
+When I Paint My Masterpiece,146,83,e135aa21dd3ae52c,True,False,When I Paint My Masterpiece
+Crazy Fingers,145,86,a754d2ef23cc8319,True,False,Crazy Fingers
+Alabama Getaway,143,87,3d5928cd46eb6e29,True,False,Alabama Getaway
+Walkin' Blues,141,88,f573fba3e6e7ff48,True,False,Walking Blues
+West L.A. Fadeaway,141,88,6f98ca35a1426c5b,True,False,West L.A. Fadeaway
+That's It for the Other One,140,90,,False,False,
+Dancing in the Street,138,91,5dc61849c3c4ab71,True,False,Dancing in the Streets
+High Time,137,92,8cd2c9481b4d1a45,True,False,High Time
+Me and Bobby McGee,128,93,becaf5a82a2ebb49,True,False,Me and Bobby McGee
+See See Rider Blues,128,93,16a2ebb00a3ed50c,True,False,C. C. Rider
+Hard to Handle,125,95,742a487854f73814,True,False,Hard to Handle
+Queen Jane Approximately,124,96,,False,False,
+Supplication,123,97,5dfcc21b45fb811f,True,False,Supplication
+All Along the Watchtower,118,98,,False,False,
+Jack-A-Roe,116,99,a49da54e92f4d1c9,True,False,Jack A Roe
+China Doll,115,100,bf1f02c90b2686e6,True,False,China Doll
+Help on the Way,111,101,49fff8200588bd8f,True,False,Help on the Way
+Lazy Lightning,111,101,,False,False,
+Might as Well,111,101,32dc5f27367629f2,True,False,Might As Well
+The Eleven,109,104,ea002118e7191ef3,True,False,The Eleven
+My Brother Esau,104,105,84c3eafc0a678a09,True,False,Brother Esau
+Passenger,100,106,2aa7fab00da97f52,True,False,Passenger
+Loose Lucy,99,107,662b16c8a515537e,True,False,Loose Lucy
+Victim or the Crime,96,108,,False,False,
+"Good Morning, School Girl",95,109,d395ffdc6baddb5c,True,False,Good Morning Little Schoolgirl
+Wang Dang Doodle,95,109,6adfac1350402158,True,False,Wang Dang Doodle
+Way to Go Home,92,111,,False,False,
+Foolish Heart,88,112,,False,False,
+Gimme Some Lovin',87,113,7bd04c93fd8e5421,True,False,Gimme Some Lovin'
+Alligator,86,114,838f747d6b548e2a,True,False,Alligator
+Big Boss Man,82,115,81454f7e8e61acb3,True,False,Big Boss Man
+Dupree's Diamond Blues,82,115,66c44767f5e1079d,True,False,Dupree's Diamond Blues
+Next Time You See Me,82,115,1513b6ca88fe0f5e,True,False,Next Time You See Me
+Caution (Do Not Stop on Tracks),79,118,94e1f408cf87432d,True,False,Caution
+Corrina,77,119,,False,False,
+Picasso Moon,77,119,,False,False,
+And We Bid You Goodnight,76,121,1dd856bf33b556d9,True,False,And We Bid You Goodnight
+Standing on the Moon,76,121,,False,False,
+Far From Me,74,123,911f05c7eeac2c86,True,False,Far From Me
+Knockin' on Heaven's Door,72,124,dc3949f86ccd9ccf,True,False,Knockin' On Heaven's Door
+In the Midnight Hour,70,125,bcdfa0ecbbfa1690,True,False,Midnight Hour
+Stuck Inside of Mobile With the Memphis Blues Again,70,125,,False,False,
+The Last Time,69,127,,False,False,
+Comes a Time,67,128,1c46621ecd4c59f9,True,False,Comes A Time
+Lazy River Road,67,128,,False,False,
+Black Muddy River,66,130,0e6bb48cf970795b,True,False,Black Muddy River
+Here Comes Sunshine,66,130,6164702ed73accc2,True,False,Here Comes Sunshine
+To Lay Me Down,64,132,42ed301e2fe63a62,True,False,To Lay Me Down
+Smokestack Lightning,63,133,3d35f0b08873d3fd,True,False,Smokestack Lightnin'
+It Hurts Me Too,61,134,f9d2b6a0a3c919d4,True,False,Hurts Me Too
+The Race Is On,60,135,77b29571423925ca,True,False,The Race Is On
+New Speedway Boogie,59,136,3ffb3e75bda1dcc7,True,False,New Speedway Boogie
+Quinn the Eskimo (The Mighty Quinn),59,136,c93099c13dd8f760,True,False,Quin The Eskimo
+Dear Mr. Fantasy,58,138,338bb80afc96157a,True,False,Dear Mr. Fantasy
+Desolation Row,58,138,d9a725e14f9a0d2e,True,False,Desolation Row
+Just Like Tom Thumb's Blues,58,138,9d148684ca1532d7,True,False,Tom Thumb Blues

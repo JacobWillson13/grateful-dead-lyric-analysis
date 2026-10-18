@@ -1,0 +1,4 @@
+metric,spearman_with_word_count,songs
+type_token_ratio,-0.411566,294
+mattr_25,0.064204,294
+mattr_50,0.185974,294

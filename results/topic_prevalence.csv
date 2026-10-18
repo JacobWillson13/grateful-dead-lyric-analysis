@@ -1,0 +1,8 @@
+topic,label,top_words,seed_stability,share_top_50,share_rest,p,p_holm
+0,Characters and tall tales,"said, man, old, went, around",0.902778,0.200941,0.144950,0.042747,0.213737
+1,"Mama, papa, and home","mama, now, papa, told, little",0.833333,0.079830,0.101765,0.825946,1.000000
+2,Love songs,"love, baby, want, gonna, honey",0.833333,0.117466,0.136433,0.722897,1.000000
+3,Party and dance,"hey, fire, day, dancing, party",0.958333,0.044365,0.055793,0.096370,0.385479
+4,"Rain, wind, and song","come, rain, song, wind, eyes",0.972222,0.220499,0.196770,0.312548,0.937643
+5,Time and reflection,"time, say, good, feel, one",0.958333,0.111020,0.218083,0.006973,0.041840
+6,Trains and the road,"back, well, train, home, ride",0.916667,0.225877,0.146207,0.001794,0.012560
